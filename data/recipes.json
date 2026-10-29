@@ -1,0 +1,1357 @@
+{
+  "version": "0.1.0-preview",
+  "disclaimer": "草稿・未驗證・未試煮。步驟為公開常見做法之重寫摘要，非逐字轉載版權食譜。",
+  "recipes": [
+    {
+      "id": "hk-tomato-egg-rice",
+      "name_zh": "番茄炒蛋蓋飯",
+      "name_en": "Tomato Egg Rice",
+      "section": "hk",
+      "category": "飯類",
+      "tags": [
+        "快手",
+        "小朋友友好",
+        "便當友好"
+      ],
+      "servings": "3–4 人",
+      "time_prep": "10 分鐘",
+      "time_cook": "15 分鐘",
+      "intro": "家常快手；酸甜番茄配滑蛋，小朋友友好。",
+      "ingredients": [
+        {
+          "name": "雞蛋",
+          "stores": [
+            "CD",
+            "NW",
+            "PnS",
+            "Costco"
+          ]
+        },
+        {
+          "name": "番茄",
+          "stores": [
+            "CD",
+            "NW",
+            "PnS"
+          ],
+          "costco_note": "Costco 偶有盒裝"
+        },
+        {
+          "name": "蔥",
+          "stores": [
+            "CD",
+            "NW",
+            "PnS",
+            "Asian"
+          ]
+        },
+        {
+          "name": "生抽／老抽",
+          "stores": [
+            "Asian",
+            "太平"
+          ],
+          "costco_note": "CD 亞洲貨架偶有"
+        },
+        {
+          "name": "糖、鹽、油",
+          "stores": [
+            "各大超市"
+          ]
+        },
+        {
+          "name": "白飯用米（茉莉香米）",
+          "stores": [
+            "CD",
+            "NW",
+            "PnS",
+            "Costco"
+          ],
+          "costco_note": "【主要 Costco】大包裝 Jasmine／短粒米更划算"
+        }
+      ],
+      "steps": [
+        "番茄切塊，雞蛋打散加少許鹽。",
+        "熱鑊少油炒蛋至半熟盛起。",
+        "同鑊爆香蔥段，下番茄略炒出水。",
+        "加少許糖、生抽調味。",
+        "倒回雞蛋拌匀至凝固。",
+        "蓋白飯即可。"
+      ],
+      "bento_note": "剩番茄炒蛋＋飯分格盒；另切小番茄。晨早翻熱至熱透。",
+      "nz_note": "完全適合；醬料建議 Asian／太平補貨。",
+      "draft_disclaimer": "草稿・未驗證・未試煮。步驟為公開常見做法之重寫摘要，非逐字轉載版權食譜。",
+      "hero_icon": "egg-tomato"
+    },
+    {
+      "id": "hk-soy-chicken-rice",
+      "name_zh": "豉油雞腿飯",
+      "name_en": "Soy Sauce Chicken Rice",
+      "section": "hk",
+      "category": "飯類",
+      "tags": [
+        "經典港式",
+        "便當友好"
+      ],
+      "servings": "3–4 人",
+      "time_prep": "15 分鐘",
+      "time_cook": "30 分鐘",
+      "intro": "經典港式豉油雞味道；用 NZ 雞腿即可。",
+      "ingredients": [
+        {
+          "name": "雞腿（骨或去骨）",
+          "stores": [
+            "CD",
+            "NW",
+            "PnS",
+            "Costco"
+          ],
+          "costco_note": "【主要 Costco】大包裝雞腿更平"
+        },
+        {
+          "name": "生抽、老抽",
+          "stores": [
+            "Asian",
+            "太平"
+          ]
+        },
+        {
+          "name": "冰糖或黃糖",
+          "stores": [
+            "Asian",
+            "各大超市"
+          ]
+        },
+        {
+          "name": "薑片、蔥",
+          "stores": [
+            "CD",
+            "NW",
+            "PnS"
+          ]
+        },
+        {
+          "name": "紹興酒或料理酒",
+          "stores": [
+            "Asian",
+            "太平"
+          ],
+          "costco_note": "無則可略"
+        },
+        {
+          "name": "白飯米",
+          "stores": [
+            "CD",
+            "NW",
+            "PnS",
+            "Costco"
+          ],
+          "costco_note": "【主要 Costco】大包裝更划算"
+        }
+      ],
+      "steps": [
+        "雞腿抹乾，可劃幾刀便入味。",
+        "薑蔥爆香，下雞腿略煎上色。",
+        "加入生抽、老抽、糖、酒及適量水。",
+        "加蓋中小火焖約 20–30 分鐘至熟透。",
+        "汁可收濃淋飯；雞肉切片擺盤。",
+        "剩餘汁可留作翌日便當淋飯（須冷藏翻熱）。"
+      ],
+      "bento_note": "切片雞腿＋飯＋少許汁另格；全熟翻熱。",
+      "nz_note": "適合；豉油類務必 Asian／太平。",
+      "draft_disclaimer": "草稿・未驗證・未試煮。步驟為公開常見做法之重寫摘要，非逐字轉載版權食譜。",
+      "hero_icon": "chicken"
+    },
+    {
+      "id": "hk-charsiu-pork-rice",
+      "name_zh": "叉燒味焗豬扒飯（家常版）",
+      "name_en": "Char Siu–style Baked Pork Chop Rice",
+      "section": "hk",
+      "category": "飯類",
+      "tags": [
+        "焗爐",
+        "茶餐廳風"
+      ],
+      "servings": "3–4 人",
+      "time_prep": "40 分鐘（含醃）",
+      "time_cook": "25 分鐘",
+      "intro": "茶餐廳風；家常用焗爐還原叉燒甜鹹味。",
+      "ingredients": [
+        {
+          "name": "豬扒／豬鞍",
+          "stores": [
+            "CD",
+            "NW",
+            "PnS",
+            "Costco"
+          ],
+          "costco_note": "Costco 大包裝豬肉"
+        },
+        {
+          "name": "叉燒醬或蜜糖＋生抽＋五香粉",
+          "stores": [
+            "Asian",
+            "太平"
+          ]
+        },
+        {
+          "name": "雞蛋、洋蔥、番茄酱／茄汁",
+          "stores": [
+            "各大超市"
+          ]
+        },
+        {
+          "name": "芝士絲（可選）",
+          "stores": [
+            "CD",
+            "NW",
+            "PnS",
+            "Costco"
+          ]
+        },
+        {
+          "name": "白飯",
+          "stores": [
+            "各大超市",
+            "Costco"
+          ]
+        }
+      ],
+      "steps": [
+        "豬扒用叉燒醬／蜜糖生抽略醃 30 分鐘以上。",
+        "熱鑊煎至兩面金黃近熟。",
+        "飯鋪焗盤，上鋪洋蔥絲及豬扒。",
+        "可打蛋液或茄汁少許淋面，撒芝士。",
+        "焗爐約 180°C 焗至面金黃。",
+        "切件即食。"
+      ],
+      "bento_note": "切件豬扒＋飯分裝；芝士焗飯翻熱加蓋。",
+      "nz_note": "適合；叉燒醬以 Asian／太平為準。",
+      "draft_disclaimer": "草稿・未驗證・未試煮。步驟為公開常見做法之重寫摘要，非逐字轉載版權食譜。",
+      "hero_icon": "pork"
+    },
+    {
+      "id": "hk-soy-noodles",
+      "name_zh": "豉油王炒麵",
+      "name_en": "Soy Sauce Fried Noodles",
+      "section": "hk",
+      "category": "粉麵類",
+      "tags": [
+        "快手",
+        "少辣"
+      ],
+      "servings": "3–4 人",
+      "time_prep": "10 分鐘",
+      "time_cook": "15 分鐘",
+      "intro": "港式快炒；鹹香煙韌。",
+      "ingredients": [
+        {
+          "name": "蛋麵／生麵",
+          "stores": [
+            "Asian",
+            "太平"
+          ],
+          "costco_note": "CD 偶有鮮麵"
+        },
+        {
+          "name": "芽菜、蔥",
+          "stores": [
+            "CD",
+            "NW",
+            "PnS"
+          ]
+        },
+        {
+          "name": "生抽、老抽、糖、油",
+          "stores": [
+            "Asian",
+            "各大超市"
+          ]
+        }
+      ],
+      "steps": [
+        "麵煮至八成熟過冷河瀝乾。",
+        "熱鑊爆香蔥段。",
+        "下麵快炒，分次加生抽老抽糖。",
+        "最後下芽菜快炒斷生。",
+        "上碟即食，少辣適合小朋友。"
+      ],
+      "bento_note": "剩麵分盒；翻熱加少許水防乾。",
+      "nz_note": "麵以 Asian 為主；菜各大超市。",
+      "draft_disclaimer": "草稿・未驗證・未試煮。步驟為公開常見做法之重寫摘要，非逐字轉載版權食譜。",
+      "hero_icon": "noodles"
+    },
+    {
+      "id": "hk-wonton-noodle",
+      "name_zh": "鮮蝦雲吞麵（家常）",
+      "name_en": "Prawn Wonton Noodle Soup",
+      "section": "hk",
+      "category": "粉麵類",
+      "tags": [
+        "湯麵",
+        "可急凍備用"
+      ],
+      "servings": "4 人",
+      "time_prep": "30 分鐘",
+      "time_cook": "40 分鐘",
+      "intro": "湯麵經典；雲吞可急凍備用。",
+      "ingredients": [
+        {
+          "name": "雲吞皮",
+          "stores": [
+            "Asian",
+            "太平"
+          ]
+        },
+        {
+          "name": "蝦仁",
+          "stores": [
+            "CD",
+            "NW",
+            "PnS",
+            "Costco"
+          ],
+          "costco_note": "【主要 Costco】大包裝急凍蝦"
+        },
+        {
+          "name": "免治豬（可混）",
+          "stores": [
+            "各大超市",
+            "Costco"
+          ]
+        },
+        {
+          "name": "蛋麵",
+          "stores": [
+            "Asian"
+          ]
+        },
+        {
+          "name": "雞骨或豬骨（煲湯）",
+          "stores": [
+            "CD",
+            "NW",
+            "PnS",
+            "Costco"
+          ],
+          "costco_note": "Costco 大包裝肉骨"
+        }
+      ],
+      "steps": [
+        "蝦略切加少許鹽糖生粉拌匀，包入雲吞皮。",
+        "骨煲湯撇泡沫，調味。",
+        "雲吞飛水至浮上再煮片刻。",
+        "麵另滾水煮熟過冷河。",
+        "碗內放麵、雲吞，淋熱湯。"
+      ],
+      "bento_note": "雲吞＋麵宜即食；湯不建議入便當（易漏）。",
+      "nz_note": "皮／麵 Asian；蝦 Costco 划算。",
+      "draft_disclaimer": "草稿・未驗證・未試煮。步驟為公開常見做法之重寫摘要，非逐字轉載版權食譜。",
+      "hero_icon": "noodles"
+    },
+    {
+      "id": "hk-beef-hor-fun",
+      "name_zh": "干炒牛河",
+      "name_en": "Beef Fried Flat Noodles",
+      "section": "hk",
+      "category": "粉麵類",
+      "tags": [
+        "鑊氣",
+        "經典"
+      ],
+      "servings": "3–4 人",
+      "time_prep": "15 分鐘",
+      "time_cook": "15 分鐘",
+      "intro": "鑊氣重的家常炒河。",
+      "ingredients": [
+        {
+          "name": "河粉",
+          "stores": [
+            "Asian",
+            "太平"
+          ],
+          "costco_note": "鮮或急凍"
+        },
+        {
+          "name": "牛肉片",
+          "stores": [
+            "CD",
+            "NW",
+            "PnS",
+            "Costco"
+          ]
+        },
+        {
+          "name": "芽菜、蔥",
+          "stores": [
+            "CD",
+            "NW",
+            "PnS"
+          ]
+        },
+        {
+          "name": "生抽、老抽、蠔油、糖",
+          "stores": [
+            "Asian"
+          ]
+        }
+      ],
+      "steps": [
+        "牛肉生抽生粉略醃。",
+        "河粉若黏可微波或蒸鬆。",
+        "猛火炒牛肉盛起。",
+        "同鑊炒河粉加醬色澤均匀。",
+        "回牛肉及芽菜蔥快炒上碟。"
+      ],
+      "bento_note": "剩河粉翻熱加少許水；便當分裝防黏。",
+      "nz_note": "河粉必須 Asian；牛肉各大／Costco。",
+      "draft_disclaimer": "草稿・未驗證・未試煮。步驟為公開常見做法之重寫摘要，非逐字轉載版權食譜。",
+      "hero_icon": "noodles"
+    },
+    {
+      "id": "hk-corn-pork-soup",
+      "name_zh": "玉米龍鬚菜豬腱湯",
+      "name_en": "Corn & Pork Shin Soup",
+      "section": "hk",
+      "category": "湯類",
+      "tags": [
+        "清甜",
+        "小朋友友好",
+        "可預製"
+      ],
+      "servings": "一家人（1+3）",
+      "time_prep": "15 分鐘",
+      "time_cook": "1.5–2 小時",
+      "intro": "清甜家常；小朋友愛喝。",
+      "ingredients": [
+        {
+          "name": "豬腱或筒骨",
+          "stores": [
+            "CD",
+            "NW",
+            "PnS",
+            "Costco"
+          ],
+          "costco_note": "Costco 大包裝"
+        },
+        {
+          "name": "甜玉米",
+          "stores": [
+            "各大超市",
+            "Costco"
+          ],
+          "costco_note": "Costco 箱裝"
+        },
+        {
+          "name": "紅蘿蔔、薑",
+          "stores": [
+            "各大超市"
+          ]
+        },
+        {
+          "name": "龍鬚菜／玉米鬚（可選）",
+          "stores": [
+            "Asian"
+          ]
+        }
+      ],
+      "steps": [
+        "肉飛水。",
+        "玉米切段、紅蘿蔔切塊。",
+        "加水大火滾後轉小火煲 1.5–2 小時。",
+        "下鹽調味。",
+        "可隔晚冷藏，翌日翻熱飲。"
+      ],
+      "bento_note": "湯不建議入便當（易漏）；可另暖壺（校規允許時）。",
+      "nz_note": "完全適合主流超市。",
+      "draft_disclaimer": "草稿・未驗證・未試煮。步驟為公開常見做法之重寫摘要，非逐字轉載版權食譜。",
+      "hero_icon": "soup"
+    },
+    {
+      "id": "hk-tomato-brisket-soup",
+      "name_zh": "番茄薯仔牛腩湯",
+      "name_en": "Tomato Potato Beef Brisket Soup",
+      "section": "hk",
+      "category": "湯類",
+      "tags": [
+        "浓郁",
+        "下飯"
+      ],
+      "servings": "4–5 人",
+      "time_prep": "20 分鐘",
+      "time_cook": "1.5–2 小時",
+      "intro": "浓郁下飯亦可單喝。",
+      "ingredients": [
+        {
+          "name": "牛腩",
+          "stores": [
+            "CD",
+            "NW",
+            "PnS",
+            "Costco"
+          ],
+          "costco_note": "【主要 Costco】大件牛腩／牛仔骨更平"
+        },
+        {
+          "name": "番茄、薯仔、洋蔥、薑",
+          "stores": [
+            "各大超市"
+          ]
+        },
+        {
+          "name": "芹菜（可選）、茄膏（可選）",
+          "stores": [
+            "各大超市"
+          ]
+        }
+      ],
+      "steps": [
+        "牛腩飛水切塊。",
+        "爆香薑蔥洋蔥，下牛腩略炒。",
+        "加水／清湯大火滾轉小火焖至軟。",
+        "下番茄薯仔再焖 20 分鐘。",
+        "調味；可加少許茄膏提味。"
+      ],
+      "bento_note": "牛腩切小塊＋飯；汁另格。",
+      "nz_note": "適合；大件牛肉優選 Costco。",
+      "draft_disclaimer": "草稿・未驗證・未試煮。步驟為公開常見做法之重寫摘要，非逐字轉載版權食譜。",
+      "hero_icon": "soup"
+    },
+    {
+      "id": "hk-garlic-steam-fish",
+      "name_zh": "蒜蓉蒸魚（NZ 白肉魚）",
+      "name_en": "Garlic Steamed White Fish",
+      "section": "hk",
+      "category": "蒸類",
+      "tags": [
+        "清淡",
+        "便當友好",
+        "少辣"
+      ],
+      "servings": "3–4 人",
+      "time_prep": "10 分鐘",
+      "time_cook": "10 分鐘",
+      "intro": "港式蒸魚；改用 NZ 常見白肉魚（tarakihi／gurnard／snapper 等）。",
+      "ingredients": [
+        {
+          "name": "白肉魚柳（tarakihi／gurnard／snapper 等）",
+          "stores": [
+            "CD",
+            "NW",
+            "PnS",
+            "Costco"
+          ],
+          "costco_note": "【主要 Costco】急凍白魚柳大包裝"
+        },
+        {
+          "name": "蒜蓉、蔥絲、薑絲",
+          "stores": [
+            "各大超市"
+          ]
+        },
+        {
+          "name": "生抽、油、少許糖",
+          "stores": [
+            "Asian",
+            "各大超市"
+          ]
+        }
+      ],
+      "steps": [
+        "魚抹乾，鋪薑絲。",
+        "大火水滾後蒸約 6–10 分鐘視厚度。",
+        "倒去腥水，鋪蒜蓉蔥絲。",
+        "淋熱油激香。",
+        "淋生抽上桌。",
+        "翌日便當：宜全熟魚肉翻熱，避免生魚。"
+      ],
+      "bento_note": "全熟魚肉拆骨確認無刺＋飯＋菜。避免生魚入校園便當。",
+      "nz_note": "適合；魚 Costco 急凍划算。",
+      "draft_disclaimer": "草稿・未驗證・未試煮。步驟為公開常見做法之重寫摘要，非逐字轉載版權食譜。",
+      "hero_icon": "fish"
+    },
+    {
+      "id": "hk-blackbean-ribs",
+      "name_zh": "豉汁排骨",
+      "name_en": "Spare Ribs in Black Bean Sauce",
+      "section": "hk",
+      "category": "蒸類",
+      "tags": [
+        "經典蒸菜",
+        "小朋友可免辣"
+      ],
+      "servings": "3–4 人",
+      "time_prep": "15 分鐘",
+      "time_cook": "20 分鐘",
+      "intro": "經典蒸菜。",
+      "ingredients": [
+        {
+          "name": "排骨",
+          "stores": [
+            "CD",
+            "NW",
+            "PnS",
+            "Costco"
+          ],
+          "costco_note": "Costco 肋排"
+        },
+        {
+          "name": "豆豉、蒜",
+          "stores": [
+            "Asian",
+            "太平"
+          ]
+        },
+        {
+          "name": "辣椒（可選）",
+          "stores": [
+            "各大超市",
+            "Asian"
+          ]
+        },
+        {
+          "name": "生粉、生抽、糖、油",
+          "stores": [
+            "Asian",
+            "各大超市"
+          ]
+        }
+      ],
+      "steps": [
+        "排骨切段飛水或沖淨。",
+        "豆豉略剁加蒜蓉醬料醃排骨。",
+        "大火蒸 15–20 分鐘至熟。",
+        "可撒蔥花。",
+        "小朋友版免辣。"
+      ],
+      "bento_note": "去大骨切小件＋飯；全熟。",
+      "nz_note": "豆豉必須 Asian；排骨各大／Costco。",
+      "draft_disclaimer": "草稿・未驗證・未試煮。步驟為公開常見做法之重寫摘要，非逐字轉載版權食譜。",
+      "hero_icon": "pork"
+    },
+    {
+      "id": "hk-steamed-egg",
+      "name_zh": "蒸水蛋",
+      "name_en": "Steamed Egg Custard",
+      "section": "hk",
+      "category": "蒸類",
+      "tags": [
+        "滑嫩",
+        "小朋友友好",
+        "快手"
+      ],
+      "servings": "3–4 人",
+      "time_prep": "5 分鐘",
+      "time_cook": "12 分鐘",
+      "intro": "滑嫩；小朋友友好。",
+      "ingredients": [
+        {
+          "name": "雞蛋",
+          "stores": [
+            "各大超市",
+            "Costco"
+          ]
+        },
+        {
+          "name": "温水或高湯（約 1:1.5–2）",
+          "stores": [
+            "各大超市"
+          ]
+        },
+        {
+          "name": "生抽、芝麻油、蔥花",
+          "stores": [
+            "Asian",
+            "各大超市"
+          ]
+        }
+      ],
+      "steps": [
+        "蛋打散過篩。",
+        "加温水／湯及少許鹽拌匀再過篩。",
+        "蓋保鮮紙戳孔，中小火蒸 8–12 分鐘。",
+        "淋生抽麻油蔥花。"
+      ],
+      "bento_note": "水蛋一角入便當；翻熱加蓋防乾。",
+      "nz_note": "完全適合。",
+      "draft_disclaimer": "草稿・未驗證・未試煮。步驟為公開常見做法之重寫摘要，非逐字轉載版權食譜。",
+      "hero_icon": "egg-tomato"
+    },
+    {
+      "id": "hk-beef-broccoli",
+      "name_zh": "西兰花炒牛肉",
+      "name_en": "Beef & Broccoli Stir-fry",
+      "section": "hk",
+      "category": "炒類",
+      "tags": [
+        "中西皆宜",
+        "快手"
+      ],
+      "servings": "3–4 人",
+      "time_prep": "15 分鐘",
+      "time_cook": "10 分鐘",
+      "intro": "中西皆宜；NZ 西蘭花充足。",
+      "ingredients": [
+        {
+          "name": "牛肉片",
+          "stores": [
+            "各大超市",
+            "Costco"
+          ]
+        },
+        {
+          "name": "西蘭花",
+          "stores": [
+            "CD",
+            "NW",
+            "PnS",
+            "Costco"
+          ],
+          "costco_note": "Costco 袋裝"
+        },
+        {
+          "name": "薑蒜、蠔油、生抽、生粉",
+          "stores": [
+            "Asian",
+            "各大超市"
+          ]
+        }
+      ],
+      "steps": [
+        "牛肉醃製。",
+        "西蘭花灼至翠綠。",
+        "猛火炒牛肉盛起。",
+        "爆香薑蒜，回鍋炒匀勾芡。"
+      ],
+      "bento_note": "少許菜＋飯；翻熱至熱透。",
+      "nz_note": "適合。",
+      "draft_disclaimer": "草稿・未驗證・未試煮。步驟為公開常見做法之重寫摘要，非逐字轉載版權食譜。",
+      "hero_icon": "veg"
+    },
+    {
+      "id": "hk-youtiao",
+      "name_zh": "炸油條（家常版）",
+      "name_en": "Youtiao / Chinese Crullers",
+      "section": "hk",
+      "category": "小食／早餐",
+      "tags": [
+        "港式早餐",
+        "需熱油"
+      ],
+      "servings": "約 8–12 條",
+      "time_prep": "30 分鐘＋醒麵",
+      "time_cook": "20 分鐘",
+      "intro": "港式早餐常見；可配豆漿或粥。下列步驟為公開常見做法之書面語重寫摘要；參考圖由總經理提供。",
+      "ingredients": [
+        {
+          "name": "中筋麵粉 Plain flour",
+          "stores": [
+            "CD",
+            "NW",
+            "PnS",
+            "Costco"
+          ],
+          "costco_note": "【主要 Costco】大包裝麵粉划算"
+        },
+        {
+          "name": "蘇打粉 Baking soda",
+          "stores": [
+            "各大超市"
+          ]
+        },
+        {
+          "name": "泡打粉 Baking powder",
+          "stores": [
+            "各大超市"
+          ]
+        },
+        {
+          "name": "鹽",
+          "stores": [
+            "各大超市"
+          ]
+        },
+        {
+          "name": "雞蛋",
+          "stores": [
+            "各大超市",
+            "Costco"
+          ]
+        },
+        {
+          "name": "玉米油 Corn oil",
+          "stores": [
+            "各大超市",
+            "Costco"
+          ]
+        },
+        {
+          "name": "凍牛奶 Cold milk",
+          "stores": [
+            "各大超市",
+            "Costco"
+          ]
+        },
+        {
+          "name": "油炸用油（菜油／葵花油）",
+          "stores": [
+            "各大超市",
+            "Costco"
+          ],
+          "costco_note": "【主要 Costco】大桶更划算"
+        }
+      ],
+      "steps": [
+        "將麵粉、蘇打粉、泡打粉與鹽拌匀。",
+        "加入蛋、玉米油及凍牛奶，揉成光滑麵團。",
+        "蓋好醒麵（常見做法會冷藏或室温靜置一段時間至鬆弛）。",
+        "麵團桿成長條，切段；兩條疊起中間輕壓黏合。",
+        "油温足夠時拉長下鍋，翻炸至金黃膨脹。",
+        "撈起吸油；趁熱配豆漿或作腸粉配菜。",
+        "安全：热油謹慎；小朋友勿近炸鍋；隔夜油條宜烤爐翻熱，勿長放室温。"
+      ],
+      "bento_note": "隔夜油條宜烤爐翻熱，勿長放室温。",
+      "nz_note": "所列材料於 NZ 主流超市及 Costco 均可購得；無需特殊亞洲醬料。",
+      "step_image": "assets/steps/youtiao-steps.jpg",
+      "step_image_credit": "總經理提供",
+      "draft_disclaimer": "草稿・未驗證・未試煮。步驟為公開常見做法之重寫摘要，非逐字轉載版權食譜。",
+      "hero_icon": "youtiao",
+      "safety": "熱油謹慎；小朋友勿近炸鍋。"
+    },
+    {
+      "id": "hk-potsticker",
+      "name_zh": "煎餃子／鍋貼（急凍可）",
+      "name_en": "Pan-fried Dumplings",
+      "section": "hk",
+      "category": "小食／早餐",
+      "tags": [
+        "快手",
+        "早餐"
+      ],
+      "servings": "3–4 人",
+      "time_prep": "5 分鐘",
+      "time_cook": "12 分鐘",
+      "intro": "快手小食或早餐。",
+      "ingredients": [
+        {
+          "name": "急凍餃子",
+          "stores": [
+            "Asian",
+            "太平"
+          ],
+          "costco_note": "CD 亞洲急凍櫃偶有"
+        },
+        {
+          "name": "油、水",
+          "stores": [
+            "各大超市"
+          ]
+        }
+      ],
+      "steps": [
+        "平底鑊少油排餃子。",
+        "煎底金黃後加水蓋焖。",
+        "水乾再開蓋煎脆底。",
+        "配醋醬油。"
+      ],
+      "bento_note": "全熟後放凉再入盒；翻熱或室温短食。",
+      "nz_note": "急凍餃優選 Asian。",
+      "draft_disclaimer": "草稿・未驗證・未試煮。步驟為公開常見做法之重寫摘要，非逐字轉載版權食譜。",
+      "hero_icon": "dumpling"
+    },
+    {
+      "id": "nz-lamb-chops",
+      "name_zh": "烤羊扒",
+      "name_en": "Lamb Chops Roast / Pan-sear",
+      "section": "nz",
+      "category": "烤肉／扒",
+      "tags": [
+        "NZ 招牌",
+        "快手西餐"
+      ],
+      "servings": "3–4 人",
+      "time_prep": "25 分鐘（含醃）",
+      "time_cook": "15 分鐘",
+      "intro": "NZ 招牌蛋白質；香草蒜蓉簡單烤或煎。",
+      "ingredients": [
+        {
+          "name": "羊扒 Lamb chops",
+          "stores": [
+            "CD",
+            "NW",
+            "PnS",
+            "Costco"
+          ],
+          "costco_note": "【主要 Costco】多支羊架／羊扒更平"
+        },
+        {
+          "name": "橄欖油、蒜、迷迭香／百里香",
+          "stores": [
+            "各大超市"
+          ]
+        },
+        {
+          "name": "鹽、黑胡椒",
+          "stores": [
+            "各大超市"
+          ]
+        }
+      ],
+      "steps": [
+        "羊扒室温回温，抹乾。",
+        "橄欖油蒜蓉香草鹽椒醃 20 分鐘以上。",
+        "煎鍋或焗爐高溫至理想熟度（家常中熟）。",
+        "靜置數分鐘再上碟。",
+        "配烤菜或沙律。"
+      ],
+      "bento_note": "切條全熟＋烤薯；小朋友宜全熟。",
+      "nz_note": "完全適合；大包裝優選 Costco。",
+      "hk_tweak": "可加少許豉油蜜糖作釉；或配椒鹽／蒜蓉豉油碟。",
+      "draft_disclaimer": "草稿・未驗證・未試煮。步驟為公開常見做法之重寫摘要，非逐字轉載版權食譜。",
+      "hero_icon": "steak"
+    },
+    {
+      "id": "nz-steak",
+      "name_zh": "煎牛扒",
+      "name_en": "Pan-seared Steak",
+      "section": "nz",
+      "category": "烤肉／扒",
+      "tags": [
+        "快手西餐"
+      ],
+      "servings": "2–3 人",
+      "time_prep": "10 分鐘",
+      "time_cook": "10 分鐘",
+      "intro": "快手西餐代表。",
+      "ingredients": [
+        {
+          "name": "牛扒（Scotch／Sirloin／Rump）",
+          "stores": [
+            "CD",
+            "NW",
+            "PnS",
+            "Costco"
+          ],
+          "costco_note": "【主要 Costco】厚切牛扒／整條切"
+        },
+        {
+          "name": "鹽、黑椒、牛油、蒜、迷迭香",
+          "stores": [
+            "各大超市",
+            "Costco"
+          ]
+        }
+      ],
+      "steps": [
+        "牛扒抹乾大力撒鹽椒。",
+        "熱鑄鐵鍋少油煎兩面。",
+        "下牛油蒜香草匙舀淋油。",
+        "按厚度決定時間；靜置後切。"
+      ],
+      "bento_note": "切條全熟；配烤蔬更安稳。",
+      "nz_note": "適合；厚切優選 Costco。",
+      "hk_tweak": "黑椒汁加少許生抽；或配蒜蓉炒菜心。",
+      "draft_disclaimer": "草稿・未驗證・未試煮。步驟為公開常見做法之重寫摘要，非逐字轉載版權食譜。",
+      "hero_icon": "steak"
+    },
+    {
+      "id": "nz-roast-chicken",
+      "name_zh": "烤雞全家餐",
+      "name_en": "Roast Chicken Dinner",
+      "section": "nz",
+      "category": "烤肉／扒",
+      "tags": [
+        "週日家庭餐",
+        "便當友好"
+      ],
+      "servings": "一家人（1+3）",
+      "time_prep": "20 分鐘",
+      "time_cook": "70–90 分鐘",
+      "intro": "週日家庭餐。",
+      "ingredients": [
+        {
+          "name": "全雞",
+          "stores": [
+            "CD",
+            "NW",
+            "PnS",
+            "Costco"
+          ],
+          "costco_note": "【主要 Costco】整雞／兩隻裝"
+        },
+        {
+          "name": "薯仔、紅蘿蔔、洋蔥",
+          "stores": [
+            "各大超市",
+            "Costco"
+          ]
+        },
+        {
+          "name": "油、鹽、香草、檸檬（可選）",
+          "stores": [
+            "各大超市"
+          ]
+        }
+      ],
+      "steps": [
+        "雞抹乾塗油鹽香草。",
+        "菜切塊拌油同盤。",
+        "約 180–200°C 烤至雞腿汁清。",
+        "靜置切件。"
+      ],
+      "bento_note": "撕雞去骨去皮＋熟菜；全熟冷藏。",
+      "nz_note": "適合。",
+      "hk_tweak": "膛內放薑蔥；皮可掃蜜糖生抽上色。",
+      "draft_disclaimer": "草稿・未驗證・未試煮。步驟為公開常見做法之重寫摘要，非逐字轉載版權食譜。",
+      "hero_icon": "chicken"
+    },
+    {
+      "id": "nz-bolognese",
+      "name_zh": "意粉肉醬",
+      "name_en": "Spaghetti Bolognese",
+      "section": "nz",
+      "category": "意粉",
+      "tags": [
+        "小朋友友好",
+        "便當友好",
+        "可造大盤"
+      ],
+      "servings": "一家人兩餐量",
+      "time_prep": "15 分鐘",
+      "time_cook": "30 分鐘",
+      "intro": "小朋友友好快手晚餐。",
+      "ingredients": [
+        {
+          "name": "意粉 Spaghetti",
+          "stores": [
+            "各大超市",
+            "Costco"
+          ],
+          "costco_note": "【主要 Costco】箱裝"
+        },
+        {
+          "name": "免治牛",
+          "stores": [
+            "各大超市",
+            "Costco"
+          ]
+        },
+        {
+          "name": "洋蔥、蒜、番茄罐／Passata",
+          "stores": [
+            "各大超市",
+            "Costco"
+          ]
+        },
+        {
+          "name": "芝士",
+          "stores": [
+            "各大超市",
+            "Costco"
+          ]
+        }
+      ],
+      "steps": [
+        "炒香洋蔥蒜及免治。",
+        "加番茄罐焖 20 分鐘以上。",
+        "意粉煮 al dente。",
+        "拌醬撒芝士。"
+      ],
+      "bento_note": "意粉肉醬分盒，撒少許芝士；翻熱加滴水。",
+      "nz_note": "適合。",
+      "hk_tweak": "肉醬加少許蠔油或五香；可改烏冬。",
+      "draft_disclaimer": "草稿・未驗證・未試煮。步驟為公開常見做法之重寫摘要，非逐字轉載版權食譜。",
+      "hero_icon": "pasta"
+    },
+    {
+      "id": "nz-mushroom-pasta",
+      "name_zh": "奶油蘑菇意粉",
+      "name_en": "Creamy Mushroom Pasta",
+      "section": "nz",
+      "category": "意粉",
+      "tags": [
+        "快手",
+        "素亦可"
+      ],
+      "servings": "3–4 人",
+      "time_prep": "10 分鐘",
+      "time_cook": "20 分鐘",
+      "intro": "素亦可；快手。",
+      "ingredients": [
+        {
+          "name": "意粉、蘑菇",
+          "stores": [
+            "各大超市",
+            "Costco"
+          ]
+        },
+        {
+          "name": "忌廉／乳酪奶油",
+          "stores": [
+            "各大超市",
+            "Costco"
+          ]
+        },
+        {
+          "name": "蒜、巴馬芝士",
+          "stores": [
+            "各大超市",
+            "Costco"
+          ]
+        }
+      ],
+      "steps": [
+        "煮意粉。",
+        "蒜爆蘑菇。",
+        "加忌廉收汁。",
+        "拌麵調味。"
+      ],
+      "bento_note": "分盒翻熱加少許水；忌廉醬宜冷藏。",
+      "nz_note": "適合。",
+      "hk_tweak": "加黑椒或少許醬油提鮮。",
+      "draft_disclaimer": "草稿・未驗證・未試煮。步驟為公開常見做法之重寫摘要，非逐字轉載版權食譜。",
+      "hero_icon": "pasta"
+    },
+    {
+      "id": "nz-fish-chips",
+      "name_zh": "炸魚薯條（家常焗／氣炸）",
+      "name_en": "Fish & Chips (oven/air-fry)",
+      "section": "nz",
+      "category": "海鮮",
+      "tags": [
+        "減油家常",
+        "小朋友友好"
+      ],
+      "servings": "3–4 人",
+      "time_prep": "15 分鐘",
+      "time_cook": "25 分鐘",
+      "intro": "海濱經典；家常減油。",
+      "ingredients": [
+        {
+          "name": "白魚柳",
+          "stores": [
+            "CD",
+            "NW",
+            "PnS",
+            "Costco"
+          ],
+          "costco_note": "【主要 Costco】急凍魚柳"
+        },
+        {
+          "name": "薯仔或急凍薯條",
+          "stores": [
+            "各大超市",
+            "Costco"
+          ]
+        },
+        {
+          "name": "麵粉、蛋、麵包糠",
+          "stores": [
+            "各大超市"
+          ]
+        },
+        {
+          "name": "檸檬、他他醬",
+          "stores": [
+            "各大超市"
+          ]
+        }
+      ],
+      "steps": [
+        "魚抹乾，粉→蛋→糠。",
+        "氣炸或焗至金黃。",
+        "薯條同爐。",
+        "配檸檬醬。"
+      ],
+      "bento_note": "全熟魚柳＋薯條；凉後入盒。",
+      "nz_note": "適合。",
+      "hk_tweak": "配椒鹽或甜酸醬。",
+      "draft_disclaimer": "草稿・未驗證・未試煮。步驟為公開常見做法之重寫摘要，非逐字轉載版權食譜。",
+      "hero_icon": "fish"
+    },
+    {
+      "id": "nz-bbq-sausage",
+      "name_zh": "BBQ 香腸與蔬菜串",
+      "name_en": "BBQ Sausages & Veg Skewers",
+      "section": "nz",
+      "category": "BBQ／快手",
+      "tags": [
+        "夏日",
+        "小朋友友好"
+      ],
+      "servings": "一家人",
+      "time_prep": "15 分鐘",
+      "time_cook": "20 分鐘",
+      "intro": "夏日庭院；小朋友友好。",
+      "ingredients": [
+        {
+          "name": "香腸 Sausages",
+          "stores": [
+            "CD",
+            "NW",
+            "PnS",
+            "Costco"
+          ],
+          "costco_note": "【主要 Costco】大包裝"
+        },
+        {
+          "name": "青椒、洋蔥、Zucchini",
+          "stores": [
+            "各大超市"
+          ]
+        },
+        {
+          "name": "BBQ 醬",
+          "stores": [
+            "各大超市",
+            "Costco"
+          ]
+        }
+      ],
+      "steps": [
+        "香腸可先水煮半熟再燒防外焦內生。",
+        "菜切塊串簽刷油。",
+        "BBQ 或焗爐至熟。",
+        "刷醬上色。"
+      ],
+      "bento_note": "熟香腸切片＋烤蔬；全熟。",
+      "nz_note": "適合。",
+      "hk_tweak": "刷叉燒醬或蜜糖豉油。",
+      "draft_disclaimer": "草稿・未驗證・未試煮。步驟為公開常見做法之重寫摘要，非逐字轉載版權食譜。",
+      "hero_icon": "bbq"
+    },
+    {
+      "id": "nz-garlic-prawns",
+      "name_zh": "蒜蓉牛油烤蝦",
+      "name_en": "Garlic Butter Prawns",
+      "section": "nz",
+      "category": "海鮮",
+      "tags": [
+        "快手海鮮"
+      ],
+      "servings": "3–4 人",
+      "time_prep": "10 分鐘",
+      "time_cook": "8 分鐘",
+      "intro": "快手海鮮。",
+      "ingredients": [
+        {
+          "name": "大蝦",
+          "stores": [
+            "CD",
+            "NW",
+            "Costco"
+          ],
+          "costco_note": "【主要 Costco】急凍大蝦"
+        },
+        {
+          "name": "牛油、蒜、香草、檸檬",
+          "stores": [
+            "各大超市"
+          ]
+        }
+      ],
+      "steps": [
+        "蝦解凍抹乾。",
+        "牛油爆蒜。",
+        "下蝦快炒至變色。",
+        "檸檬汁香草調味。"
+      ],
+      "bento_note": "全熟蝦；冷藏翻熱。小朋友注意過敏。",
+      "nz_note": "Costco 蝦優選。",
+      "hk_tweak": "加椒絲豆豉少許。",
+      "draft_disclaimer": "草稿・未驗證・未試煮。步驟為公開常見做法之重寫摘要，非逐字轉載版權食譜。",
+      "hero_icon": "prawn"
+    },
+    {
+      "id": "xo-honey-wings",
+      "name_zh": "蜜汁雞中翼（NZ 雞翼）",
+      "name_en": "Honey-soy NZ Chicken Wings",
+      "section": "crossover",
+      "category": "港式×NZ",
+      "tags": [
+        "小朋友友好",
+        "便當友好"
+      ],
+      "servings": "一家人",
+      "time_prep": "15 分鐘",
+      "time_cook": "35 分鐘",
+      "intro": "小朋友友好；港式蜜汁配 NZ 雞翼。",
+      "ingredients": [
+        {
+          "name": "雞翼",
+          "stores": [
+            "Costco",
+            "CD",
+            "NW",
+            "PnS"
+          ],
+          "costco_note": "【主要 Costco】大包裝雞翼"
+        },
+        {
+          "name": "蜜糖、生抽、蒜",
+          "stores": [
+            "各大超市",
+            "Asian"
+          ]
+        }
+      ],
+      "steps": [
+        "醃後焗或氣炸。",
+        "刷蜜汁上色。"
+      ],
+      "bento_note": "2–3 隻全熟雞翼＋菜＋飯；去骨更小朋友友好。",
+      "nz_note": "是。",
+      "draft_disclaimer": "草稿・未驗證・未試煮。步驟為公開常見做法之重寫摘要，非逐字轉載版權食譜。",
+      "hero_icon": "chicken"
+    },
+    {
+      "id": "xo-chu-hou-brisket",
+      "name_zh": "柱侯牛腩（NZ 牛腩）",
+      "name_en": "Chu Hou Beef Brisket (NZ)",
+      "section": "crossover",
+      "category": "港式×NZ",
+      "tags": [
+        "可吃兩日",
+        "便當友好"
+      ],
+      "servings": "一家人兩日量",
+      "time_prep": "30 分鐘",
+      "time_cook": "1.5–2 小時",
+      "intro": "麺店風；配蘿蔔。主材 NZ 牛腩，醬料 Asian。",
+      "ingredients": [
+        {
+          "name": "牛腩",
+          "stores": [
+            "Costco",
+            "CD",
+            "NW"
+          ],
+          "costco_note": "【主要 Costco】"
+        },
+        {
+          "name": "柱侯醬、南乳（可選）",
+          "stores": [
+            "Asian",
+            "太平"
+          ]
+        },
+        {
+          "name": "蘿蔔、薑、星茴",
+          "stores": [
+            "各大超市",
+            "Asian"
+          ]
+        }
+      ],
+      "steps": [
+        "牛腩飛水。",
+        "爆香薑蔥下醬。",
+        "焖至軟下蘿蔔。"
+      ],
+      "bento_note": "牛腩切小塊＋飯或烏冬；汁另格防漏。",
+      "nz_note": "醬料 Asian；肉 Costco。",
+      "draft_disclaimer": "草稿・未驗證・未試煮。步驟為公開常見做法之重寫摘要，非逐字轉載版權食譜。",
+      "hero_icon": "soup"
+    }
+  ]
+}
