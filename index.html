@@ -4,11 +4,10 @@
   <script>
 /* GitHub Pages project base — 改 repo 名必須改 REPO */
 (function(){var REPO="tonighteatwhatgive";var p=location.pathname;var base="./";if(p==="/"+REPO||p.indexOf("/"+REPO+"/")===0){base="/"+REPO+"/";}else{var i=p.lastIndexOf("/");if(i>=0)base=p.slice(0,i+1)||"./";}document.write('<base href="'+base+'">');window.__SITE_BASE__=base;})();
-
 </script>
 <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>太太菜譜站｜港式家常 × NZ 西餐</title>
+  <title>今晚食乜餸 · Tonight Eat What Give</title>
   <link rel="stylesheet" href="css/site.css">
 </head>
 <body>
@@ -16,49 +15,50 @@
   <main class="wrap">
     <section class="hero">
       <div class="badge-row">
-        <span class="badge warn">草稿・未驗證・未試煮</span>
-        <span class="badge ok">1 大人＋3 小朋友</span>
-        <span class="badge">NZ 可買材料</span>
+        <span class="badge warn" data-i18n="badgeDraft">草稿・未驗證・未試煮</span>
+        <span class="badge ok" data-i18n="badgeFamily">1 大人＋3 小朋友</span>
+        <span class="badge" data-i18n="badgeNz">NZ 可買材料</span>
       </div>
-      <h1>今晚煮咩好？港式家常為主，NZ 西餐隨時切換</h1>
-      <p>每項材料旁註明 Countdown／New World／Pak'nSave／Costco／亞洲超市・太平。便當友好，餸可留第二日返學。</p>
+      <h1 data-i18n="heroTitle">今晚煮咩好？港式家常為主，NZ 西餐隨時切換</h1>
+      <p data-i18n="heroLead">每項材料旁註明 Countdown／New World／Pak'nSave／Costco／亞洲超市・太平。便當友好，餸可留第二日返學。</p>
     </section>
 
     <div class="section-title">
-      <h2>本週每日推介</h2>
-      <a href="week.html">睇晒七日 →</a>
+      <h2 data-i18n="weekTitle">本週每日推介</h2>
+      <a href="week.html" data-i18n="weekMore">睇晒七日 →</a>
     </div>
     <div class="grid" id="week-preview"></div>
 
     <div class="section-title">
-      <h2>分類入口</h2>
+      <h2 data-i18n="catsTitle">分類入口</h2>
     </div>
     <div class="grid">
       <article class="card"><a class="cover-link" href="hk.html">
         <div class="card-visual"><img src="assets/icons/egg-tomato.svg" alt="" width="72" height="72"></div>
-        <div class="card-body"><h3>港式家常主庫</h3><div class="en">飯／粉麵／湯／蒸／炒／小食</div><div class="card-meta">口味以香港人為主</div></div>
+        <div class="card-body"><h3 data-i18n="catHk">港式家常主庫</h3><div class="en" data-i18n="catHkEn">飯／粉麵／湯／蒸／炒／小食</div><div class="card-meta" data-i18n="catHkMeta">口味以香港人為主</div></div>
       </a></article>
       <article class="card"><a class="cover-link" href="nz.html">
         <div class="card-visual"><img src="assets/icons/steak.svg" alt="" width="72" height="72"></div>
-        <div class="card-body"><h3>NZ 西餐／快手</h3><div class="en">牛扒、羊扒、意粉、BBQ…</div><div class="card-meta">材料主流超市＋Costco</div></div>
+        <div class="card-body"><h3 data-i18n="catNz">NZ 西餐／快手</h3><div class="en" data-i18n="catNzEn">牛扒、羊扒、意粉、BBQ…</div><div class="card-meta" data-i18n="catNzMeta">材料主流超市＋Costco</div></div>
       </a></article>
       <article class="card"><a class="cover-link" href="week.html">
         <div class="card-visual"><img src="assets/icons/soup.svg" alt="" width="72" height="72"></div>
-        <div class="card-body"><h3>每日推介（1+3）</h3><div class="en">一週七日 · 便當延伸</div><div class="card-meta">少辣 · 全熟 · 可留第二日</div></div>
+        <div class="card-body"><h3 data-i18n="catWeek">每日推介（1+3）</h3><div class="en" data-i18n="catWeekEn">一週七日 · 便當延伸</div><div class="card-meta" data-i18n="catWeekMeta">少辣 · 全熟 · 可留第二日</div></div>
       </a></article>
       <article class="card"><a class="cover-link" href="recipe.html?id=hk-youtiao">
         <div class="card-visual"><img src="assets/icons/youtiao.svg" alt="" width="72" height="72"></div>
-        <div class="card-body"><h3>炸油條（示範圖文）</h3><div class="en">含總經理提供步驟圖</div><div class="card-meta">小食／港式早餐</div></div>
+        <div class="card-body"><h3 data-i18n="catYoutiao">炸油條（示範圖文）</h3><div class="en" data-i18n="catYoutiaoEn">含總經理提供步驟圖</div><div class="card-meta" data-i18n="catYoutiaoMeta">小食／港式早餐</div></div>
       </a></article>
     </div>
 
     <div class="section-title">
-      <h2>精選菜譜</h2>
-      <a href="hk.html">更多港式 →</a>
+      <h2 data-i18n="featuredTitle">精選菜譜</h2>
+      <a href="hk.html" data-i18n="featuredMore">更多港式 →</a>
     </div>
     <div class="grid" id="featured"></div>
   </main>
   <div id="site-footer"></div>
+  <script src="js/i18n.js"></script>
   <script src="js/app.js"></script>
   <script src="js/layout.js"></script>
   <script>
@@ -68,23 +68,29 @@
         RecipeApp.loadJSON("data/week.json"),
       ]);
       const byId = Object.fromEntries(data.recipes.map(r => [r.id, r]));
-      const weekEl = document.getElementById("week-preview");
-      weekEl.innerHTML = week.days.slice(0, 3).map(d => {
-        const links = (d.recipe_ids || []).map(id => {
-          const r = byId[id];
-          return r ? `<a href="recipe.html?id=${encodeURIComponent(id)}">${RecipeApp.escapeHtml(r.name_zh)}</a>` : "";
-        }).filter(Boolean).join(" · ");
-        return `<article class="day-card">
-          <h3><span class="day-num">${d.day}</span>${RecipeApp.escapeHtml(d.weekday_zh)}</h3>
-          <div class="dinner">${RecipeApp.escapeHtml(d.dinner)}</div>
-          <div class="card-meta">${RecipeApp.escapeHtml(d.time || "")}</div>
-          <p style="margin:8px 0 0;font-size:.9rem">${links}</p>
-          <p style="margin:8px 0 0"><a href="week.html#day-${d.day}">詳情 →</a></p>
-        </article>`;
-      }).join("");
-      const featuredIds = ["hk-tomato-egg-rice","hk-soy-chicken-rice","hk-youtiao","nz-steak","nz-bolognese","nz-lamb-chops"];
-      document.getElementById("featured").innerHTML = featuredIds
-        .map(id => byId[id]).filter(Boolean).map(RecipeApp.recipeCard).join("");
+      function paint() {
+        const weekEl = document.getElementById("week-preview");
+        weekEl.innerHTML = week.days.slice(0, 3).map(d => {
+          const links = (d.recipe_ids || []).map(id => {
+            const r = byId[id];
+            return r ? `<a href="recipe.html?id=${encodeURIComponent(id)}">${RecipeApp.escapeHtml(RecipeApp.recipeName(r))}</a>` : "";
+          }).filter(Boolean).join(" · ");
+          const wd = RecipeApp.isZh() ? d.weekday_zh : (d.weekday_en || d.weekday_zh);
+          const dinner = RecipeApp.isZh() ? d.dinner : (d.dinner_en || d.dinner);
+          return `<article class="day-card">
+            <h3><span class="day-num">${d.day}</span>${RecipeApp.escapeHtml(wd)}</h3>
+            <div class="dinner">${RecipeApp.escapeHtml(dinner)}</div>
+            <div class="card-meta">${RecipeApp.escapeHtml(d.time || "")}</div>
+            <p style="margin:8px 0 0;font-size:.9rem">${links}</p>
+            <p style="margin:8px 0 0"><a href="week.html#day-${d.day}">${RecipeApp.escapeHtml(RecipeApp.t("dayDetail"))}</a></p>
+          </article>`;
+        }).join("");
+        const featuredIds = ["hk-tomato-egg-rice","hk-salted-fish-pork-rice","hk-youtiao","nz-steak","nz-shepherds-pie","xo-honey-wings","hk-cart-noodle","xo-sweet-sour-pork"];
+        document.getElementById("featured").innerHTML = featuredIds
+          .map(id => byId[id]).filter(Boolean).map(RecipeApp.recipeCard).join("");
+      }
+      paint();
+      RecipeApp.onLangChange = paint;
     })().catch(e => { document.getElementById("featured").textContent = e.message; });
   </script>
 </body>

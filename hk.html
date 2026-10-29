@@ -4,42 +4,61 @@
   <script>
 /* GitHub Pages project base — 改 repo 名必須改 REPO */
 (function(){var REPO="tonighteatwhatgive";var p=location.pathname;var base="./";if(p==="/"+REPO||p.indexOf("/"+REPO+"/")===0){base="/"+REPO+"/";}else{var i=p.lastIndexOf("/");if(i>=0)base=p.slice(0,i+1)||"./";}document.write('<base href="'+base+'">');window.__SITE_BASE__=base;})();
-
 </script>
 <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>港式家常主庫｜太太菜譜站</title>
+  <title>港式家常主庫｜今晚食乜餸</title>
   <link rel="stylesheet" href="css/site.css">
 </head>
 <body>
   <div id="site-header"></div>
   <main class="wrap">
     <section class="hero">
-      <h1>港式家常主庫</h1>
-      <p>飯／粉麵／湯／蒸／炒／小食。每款附 NZ 超市來源。狀態：草稿・未驗證・未試煮。</p>
+      <h1 data-i18n="hkTitle">港式家常主庫</h1>
+      <p data-i18n="hkLead">飯／粉麵／湯／蒸／炒／小食。每款附 NZ 超市來源。狀態：草稿・未驗證・未試煮。</p>
     </section>
     <div class="filters" id="filters"></div>
     <div class="grid" id="list"></div>
   </main>
   <div id="site-footer"></div>
+  <script src="js/i18n.js"></script>
   <script src="js/app.js"></script>
   <script src="js/layout.js"></script>
   <script>
     (async () => {
       const data = await RecipeApp.loadJSON("data/recipes.json");
       const list = data.recipes.filter(r => r.section === "hk");
-      const cats = ["全部", ...Array.from(new Set(list.map(r => r.category)))];
+      let current = "__all__";
       const filters = document.getElementById("filters");
       const grid = document.getElementById("list");
+      function cats() {
+        const all = RecipeApp.t("filterAll");
+        const quick = RecipeApp.t("filterQuick");
+        const base = [all, quick, ...Array.from(new Set(list.map(r => r.category)))];
+        return base;
+      }
       function render(cat) {
-        filters.innerHTML = cats.map(c =>
+        current = cat;
+        const allLabel = RecipeApp.t("filterAll");
+        const quickLabel = RecipeApp.t("filterQuick");
+        const labels = cats();
+        filters.innerHTML = labels.map(c =>
           `<button type="button" class="${c===cat?"active":""}" data-cat="${RecipeApp.escapeHtml(c)}">${RecipeApp.escapeHtml(c)}</button>`
         ).join("");
-        const rows = cat === "全部" ? list : list.filter(r => r.category === cat);
-        grid.innerHTML = rows.map(RecipeApp.recipeCard).join("");
+        let rows = list;
+        if (cat === quickLabel) rows = list.filter(r => (r.tags||[]).some(t => /快手|Quick|quick/i.test(t)));
+        else if (cat !== allLabel) rows = list.filter(r => r.category === cat);
+        grid.innerHTML = rows.length ? rows.map(RecipeApp.recipeCard).join("") : `<p>${RecipeApp.escapeHtml(RecipeApp.t("emptyList"))}</p>`;
         filters.querySelectorAll("button").forEach(b => b.addEventListener("click", () => render(b.dataset.cat)));
       }
-      render("全部");
+      function paint() {
+        const allLabel = RecipeApp.t("filterAll");
+        const map = { "__all__": allLabel };
+        render(map[current] || (current === allLabel || labelsHas(current) ? current : allLabel));
+      }
+      function labelsHas(c) { return cats().indexOf(c) >= 0; }
+      paint();
+      RecipeApp.onLangChange = function(){ current = "__all__"; paint(); };
     })().catch(e => { document.getElementById("list").textContent = e.message; });
   </script>
 </body>

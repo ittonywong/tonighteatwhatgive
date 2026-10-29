@@ -1,21 +1,24 @@
 {
-  "version": "0.1.0-preview",
+  "version": "0.2.0",
   "audience": "1 大人＋3 小朋友",
   "days": [
     {
       "day": 1,
       "weekday_zh": "星期一",
-      "dinner": "番茄炒蛋＋清炒菠菜＋白飯；例湯：玉米豬腱湯（可前晚煲）",
+      "weekday_en": "Monday",
+      "dinner": "番茄炒蛋＋清炒時蔬＋白飯；例湯：玉米豬腱湯（可前晚煲）",
+      "dinner_en": "Tomato egg + stir-fried greens + rice; corn pork soup (make-ahead OK)",
       "recipe_ids": [
         "hk-tomato-egg-rice",
+        "hk-stir-greens",
         "hk-corn-pork-soup"
       ],
-      "servings_note": "大人飯量 1；小朋友各約半碗飯＋蛋番茄共亨一大碟；湯每人一碗。",
-      "bento": "剩番茄炒蛋＋飯分 3 格盒；另切小番茄或熟玉米粒。湯不建議入便當（易漏）；可另暖壺湯（校規允許時）。",
+      "servings_note": "大人飯量 1；小朋友各約半碗飯＋蛋番茄共亨；湯每人一碗。",
+      "bento": "剩番茄炒蛋＋飯分 3 格盒；另切小番茄。湯不建議入便當（易漏）。",
       "time": "準備約 35–45 分鐘（湯已預製則 25 分鐘）",
       "ingredients_summary": [
         {
-          "name": "蛋、番茄、菠菜／bok choy",
+          "name": "蛋、番茄、時蔬",
           "stores": [
             "CD",
             "NW",
@@ -49,13 +52,15 @@
     {
       "day": 2,
       "weekday_zh": "星期二",
+      "weekday_en": "Tuesday",
       "dinner": "蜜汁雞中翼＋西兰花炒牛肉（少份）＋白飯",
+      "dinner_en": "Honey wings + beef & broccoli + rice",
       "recipe_ids": [
         "xo-honey-wings",
         "hk-beef-broccoli"
       ],
-      "servings_note": "雞翼約 12–16 隻一家；西兰花牛肉一中碟；飯如上。",
-      "bento": "2–3 隻全熟雞翼＋少許菜＋飯；去骨更小朋友友好。冷藏，吃前熱透。",
+      "servings_note": "雞翼約 12–16 隻一家；西兰花牛肉一中碟。",
+      "bento": "2–3 隻全熟雞翼＋少許菜＋飯；去骨更小朋友友好。",
       "time": "約 50 分鐘（可焗翼同時炒菜）",
       "ingredients_summary": [
         {
@@ -81,132 +86,164 @@
           ]
         }
       ],
-      "safety": "少辣；全熟；便當晨早翻熱；保冷袋送校；隔夜勿超過一日；忌生刺身入校園便當。"
+      "safety": "雞肉牛肉全熟；少辣；保冷。"
     },
     {
       "day": 3,
       "weekday_zh": "星期三",
-      "dinner": "蒜蓉蒸 NZ 白魚＋蒸水蛋＋菜心／白菜",
+      "weekday_en": "Wednesday",
+      "dinner": "免治牛肉碟頭飯＋蒸水蛋；或意粉肉醬（週中快手）",
+      "dinner_en": "Minced beef rice bowl + steamed egg; or spaghetti bolognese",
+      "recipe_ids": [
+        "hk-minced-beef-rice",
+        "hk-steamed-egg",
+        "nz-bolognese"
+      ],
+      "servings_note": "碟頭飯一家一鑊；蒸水蛋一大碗；或意粉每人一碟。",
+      "bento": "剩免治牛肉＋飯；或意粉少醬防漏。",
+      "time": "約 40 分鐘",
+      "ingredients_summary": [
+        {
+          "name": "免治牛肉、洋蔥",
+          "stores": [
+            "CD",
+            "NW",
+            "PnS",
+            "Costco"
+          ]
+        },
+        {
+          "name": "雞蛋",
+          "stores": [
+            "各大超市"
+          ]
+        },
+        {
+          "name": "意粉、番茄罐",
+          "stores": [
+            "各大超市",
+            "Costco"
+          ]
+        },
+        {
+          "name": "蠔油、生抽",
+          "stores": [
+            "Asian"
+          ]
+        }
+      ],
+      "safety": "牛肉全熟；蛋凝固；便當翻熱。"
+    },
+    {
+      "day": 4,
+      "weekday_zh": "星期四",
+      "weekday_en": "Thursday",
+      "dinner": "蒜蓉蒸 NZ 白肉魚＋椒鹽豆腐＋白飯；南瓜湯可選",
+      "dinner_en": "Garlic-steamed NZ fish + salt-pepper tofu + rice; optional pumpkin soup",
       "recipe_ids": [
         "hk-garlic-steam-fish",
-        "hk-steamed-egg"
+        "hk-salt-pepper-tofu",
+        "nz-pumpkin-soup"
       ],
-      "servings_note": "魚柳 500–700g；水蛋一碗；青菜一碟；飯。",
-      "bento": "全熟魚肉拆骨確認無刺＋水蛋一角＋菜＋飯。避免生魚。",
-      "time": "約 40 分鐘",
+      "servings_note": "魚柳按人份；豆腐一碟；湯可選。",
+      "bento": "剩魚去骨＋飯＋豆腐；魚須全熟，唔好生魚。",
+      "time": "約 45 分鐘",
       "ingredients_summary": [
         {
           "name": "白魚柳",
           "stores": [
             "CD",
             "NW",
+            "PnS",
             "Costco"
           ]
         },
         {
-          "name": "蛋、菜心或 bok choy",
+          "name": "豆腐、椒鹽",
           "stores": [
-            "各大超市",
+            "CD",
+            "NW",
             "Asian"
           ]
         },
         {
-          "name": "蒜、蔥、薑、生抽",
-          "stores": [
-            "各大超市",
-            "Asian"
-          ]
-        }
-      ],
-      "safety": "少辣；全熟；便當晨早翻熱；保冷袋送校；隔夜勿超過一日；忌生刺身入校園便當。"
-    },
-    {
-      "day": 4,
-      "weekday_zh": "星期四",
-      "dinner": "意粉肉醬（大盤）＋側碟沙律青菜",
-      "recipe_ids": [
-        "nz-bolognese"
-      ],
-      "servings_note": "意粉 500g 乾麵煮熟約一家兩餐量；肉醬足量。",
-      "bento": "意粉肉醬分盒，撒少許芝士；沙律另盒或改熟菜更安稳。翻熱意粉加滴水。",
-      "time": "約 40 分鐘",
-      "ingredients_summary": [
-        {
-          "name": "意粉、免治牛、番茄罐",
+          "name": "南瓜",
           "stores": [
             "各大超市",
             "Costco"
-          ],
-          "costco_note": "【主要 Costco】意粉與肉"
+          ]
         },
         {
-          "name": "芝士、沙律菜",
+          "name": "蒸魚豉油、蒜",
           "stores": [
-            "各大超市"
+            "Asian"
           ]
         }
       ],
-      "safety": "少辣；全熟；便當晨早翻熱；保冷袋送校；隔夜勿超過一日；忌生刺身入校園便當。"
+      "safety": "魚全熟；豆腐熱油小心；忌生魚便當。"
     },
     {
       "day": 5,
       "weekday_zh": "星期五",
-      "dinner": "煎羊扒或牛扒（大人）＋兒童份烤雞翼或香腸＋烤薯仔蔬菜",
+      "weekday_en": "Friday",
+      "dinner": "煎牛扒或烤羊扒＋薯仔沙律／凱撒；港式小改可配菜心",
+      "dinner_en": "Steak or lamb chops + potato/Caesar salad",
       "recipe_ids": [
-        "nz-lamb-chops",
         "nz-steak",
-        "nz-bbq-sausage"
+        "nz-lamb-chops",
+        "nz-potato-salad"
       ],
-      "servings_note": "大人扒 1–2 塊；小朋友香腸／翼；烤蔬一大盤。",
-      "bento": "熟羊／牛切條或改用雞翼香腸＋烤薯；全熟。",
-      "time": "約 45 分鐘",
+      "servings_note": "大人扒；小朋友可切細或另煎香腸。",
+      "bento": "剩扒切件全熟＋沙律（保冷）；沙律勿室温長放。",
+      "time": "約 40 分鐘",
       "ingredients_summary": [
         {
-          "name": "羊扒或牛扒",
+          "name": "牛扒或羊扒",
           "stores": [
             "Costco",
             "各大超市"
-          ]
-        },
-        {
-          "name": "香腸或雞翼",
-          "stores": [
-            "Costco"
-          ]
-        },
-        {
-          "name": "薯仔混合蔬菜",
-          "stores": [
-            "各大超市",
-            "Costco"
-          ]
-        }
-      ],
-      "safety": "少辣；全熟；便當晨早翻熱；保冷袋送校；隔夜勿超過一日；忌生刺身入校園便當。"
-    },
-    {
-      "day": 6,
-      "weekday_zh": "星期六",
-      "dinner": "柱侯牛腩（可配蘿蔔）＋青菜＋米飯；或配烏冬",
-      "recipe_ids": [
-        "xo-chu-hou-brisket"
-      ],
-      "servings_note": "牛腩 1–1.2kg 焖一大鍋；可吃兩日。",
-      "bento": "牛腩切小塊去大塊脂肪＋飯或烏冬；汁另格防漏。翻熱至熱透。",
-      "time": "主动约 30 分鐘＋焖 1.5–2 小時（可電鍋）",
-      "ingredients_summary": [
-        {
-          "name": "牛腩",
-          "stores": [
-            "Costco"
           ],
           "costco_note": "【主要 Costco】"
         },
         {
-          "name": "蘿蔔、薑",
+          "name": "薯仔、蛋黃醬",
           "stores": [
             "各大超市"
           ]
+        }
+      ],
+      "safety": "肉全熟或按自家熟度；沙律保冷；少辣。"
+    },
+    {
+      "day": 6,
+      "weekday_zh": "星期六",
+      "weekday_en": "Saturday",
+      "dinner": "車仔麵一家分碗；或柱侯牛腩＋白飯",
+      "dinner_en": "Cart noodle bowls; or chu hou brisket + rice",
+      "recipe_ids": [
+        "hk-cart-noodle",
+        "xo-chu-hou-brisket"
+      ],
+      "servings_note": "麵各人一碗自選料；牛腩可留第二日。",
+      "bento": "牛腩＋飯；湯麵唔入便當。",
+      "time": "約 60 分鐘（牛腩更耐煮）",
+      "ingredients_summary": [
+        {
+          "name": "麵／魚蛋",
+          "stores": [
+            "Asian",
+            "太平"
+          ]
+        },
+        {
+          "name": "牛腩",
+          "stores": [
+            "CD",
+            "NW",
+            "PnS",
+            "Costco"
+          ],
+          "costco_note": "【主要 Costco】"
         },
         {
           "name": "柱侯醬",
@@ -214,50 +251,49 @@
             "Asian",
             "太平"
           ]
-        },
-        {
-          "name": "米或烏冬",
-          "stores": [
-            "各大超市",
-            "Asian"
-          ]
         }
       ],
-      "safety": "少辣；全熟；便當晨早翻熱；保冷袋送校；隔夜勿超過一日；忌生刺身入校園便當。"
+      "safety": "配料全熟；少辣清湯給小朋友；保冷。"
     },
     {
       "day": 7,
       "weekday_zh": "星期日",
-      "dinner": "烤雞全家餐＋薯仔沙律（少芥末）＋蒸煮蔬菜",
+      "weekday_en": "Sunday",
+      "dinner": "烤雞全家餐或牧羊人批；甜酸豬柳可作第二碟",
+      "dinner_en": "Roast chicken or shepherd’s pie; optional sweet-sour pork",
       "recipe_ids": [
-        "nz-roast-chicken"
+        "nz-roast-chicken",
+        "nz-shepherds-pie",
+        "xo-sweet-sour-pork"
       ],
-      "servings_note": "整雞一隻；沙律一碗；菜。",
-      "bento": "撕雞去骨去皮（較少油）＋少許薯仔沙律（冷藏保冷）＋熟菜。注意沙律蛋黃醬類保冷。",
-      "time": "約 90 分鐘（多為烤時間）",
+      "servings_note": "全雞一家；或一大盤肉餡薯蓉批。",
+      "bento": "剩雞去骨＋菜＋飯；或批切件翻熱。",
+      "time": "約 75–90 分鐘（烤雞）／牧羊人批約 60 分鐘",
       "ingredients_summary": [
         {
           "name": "全雞",
           "stores": [
             "Costco",
             "各大超市"
-          ]
+          ],
+          "costco_note": "【主要 Costco】"
         },
         {
-          "name": "薯仔、蛋黃醬",
-          "stores": [
-            "各大超市"
-          ]
-        },
-        {
-          "name": "混合蔬菜",
+          "name": "免治肉、薯仔",
           "stores": [
             "各大超市",
             "Costco"
           ]
+        },
+        {
+          "name": "豬柳、青椒",
+          "stores": [
+            "各大超市"
+          ]
         }
       ],
-      "safety": "少辣；全熟；便當晨早翻熱；保冷袋送校；隔夜勿超過一日；忌生刺身入校園便當。"
+      "safety": "雞汁清全熟；批翻熱透心；隔夜冷藏勿超過一日。"
     }
-  ]
+  ],
+  "site_name_zh": "今晚食乜餸"
 }

@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0-preview",
+  "version": "0.2.0",
   "disclaimer": "草稿・未驗證・未試煮。步驟為公開常見做法之重寫摘要，非逐字轉載版權食譜。",
   "recipes": [
     {
@@ -1352,6 +1352,1579 @@
       "nz_note": "醬料 Asian；肉 Costco。",
       "draft_disclaimer": "草稿・未驗證・未試煮。步驟為公開常見做法之重寫摘要，非逐字轉載版權食譜。",
       "hero_icon": "soup"
+    },
+    {
+      "id": "hk-salted-fish-pork-rice",
+      "name_zh": "咸魚肉餅蒸飯",
+      "name_en": "Steamed Minced Pork with Salted Fish on Rice",
+      "section": "hk",
+      "category": "飯類",
+      "tags": [
+        "家常",
+        "下飯",
+        "蒸"
+      ],
+      "servings": "3–4 人",
+      "time_prep": "15 分鐘",
+      "time_cook": "15 分鐘",
+      "intro": "家常蒸菜；咸香下飯。",
+      "intro_en": "Home steamed dish; savoury salted fish over minced pork on rice.",
+      "ingredients": [
+        {
+          "name": "免治豬肉",
+          "stores": [
+            "CD",
+            "NW",
+            "PnS",
+            "Costco"
+          ],
+          "name_en": "Minced pork"
+        },
+        {
+          "name": "咸魚塊",
+          "stores": [
+            "Asian",
+            "太平"
+          ],
+          "costco_note": "【主要 Asian／太平】主流超市罕有",
+          "name_en": "Salted fish"
+        },
+        {
+          "name": "薑蓉、生粉、生抽、油、糖",
+          "stores": [
+            "Asian",
+            "各大超市"
+          ],
+          "name_en": "Ginger, starch, soy, oil, sugar"
+        },
+        {
+          "name": "白飯",
+          "stores": [
+            "CD",
+            "NW",
+            "PnS",
+            "Costco"
+          ],
+          "name_en": "Cooked rice"
+        }
+      ],
+      "steps": [
+        "免治肉加薑蓉、生抽、糖、生粉、少許水攪至有黏性。",
+        "咸魚切粒或薄片鋪肉餅上。",
+        "可直接鋪在半熟飯面或另碟。",
+        "大火蒸約 12–15 分鐘至肉熟。",
+        "淋熱油及少許生抽提香。"
+      ],
+      "draft_disclaimer": "草稿・未驗證・未試煮。步驟為公開常見做法之重寫摘要，非逐字轉載版權食譜。",
+      "hero_icon": "pork",
+      "nz_note": "肉／米容易買；咸魚必須 Asian／太平。",
+      "bento_note": "剩肉餅切件＋飯；晨早翻熱至熱透。",
+      "safety": "豬肉須全熟；咸魚鹹，小朋友份量宜少。"
+    },
+    {
+      "id": "hk-minced-beef-rice",
+      "name_zh": "免治牛肉碟頭飯（家常）",
+      "name_en": "Minced Beef Rice Bowl",
+      "section": "hk",
+      "category": "飯類",
+      "tags": [
+        "快手",
+        "小朋友友好",
+        "便當友好"
+      ],
+      "servings": "3–4 人",
+      "time_prep": "10 分鐘",
+      "time_cook": "20 分鐘",
+      "intro": "茶記碟頭飯簡化版；可加蛋。",
+      "intro_en": "Café-style minced beef over rice; optional fried egg.",
+      "ingredients": [
+        {
+          "name": "免治牛肉",
+          "stores": [
+            "CD",
+            "NW",
+            "PnS",
+            "Costco"
+          ],
+          "costco_note": "Costco 大包裝",
+          "name_en": "Minced beef"
+        },
+        {
+          "name": "洋蔥、青豆或玉米粒",
+          "stores": [
+            "各大超市"
+          ],
+          "name_en": "Onion, peas or corn"
+        },
+        {
+          "name": "生抽、老抽、蠔油",
+          "stores": [
+            "Asian",
+            "太平"
+          ],
+          "name_en": "Soy sauces, oyster sauce"
+        },
+        {
+          "name": "生粉水、雞蛋可選",
+          "stores": [
+            "各大超市"
+          ],
+          "name_en": "Cornstarch slurry, optional egg"
+        },
+        {
+          "name": "白飯",
+          "stores": [
+            "各大超市",
+            "Costco"
+          ],
+          "name_en": "Rice"
+        }
+      ],
+      "steps": [
+        "洋蔥炒香，下免治牛肉炒散。",
+        "加醬料及少許水焖煮。",
+        "生粉水勾芡。",
+        "可另煎太陽蛋。",
+        "蓋白飯。"
+      ],
+      "draft_disclaimer": "草稿・未驗證・未試煮。步驟為公開常見做法之重寫摘要，非逐字轉載版權食譜。",
+      "hero_icon": "steak",
+      "nz_note": "適合；蠔油建議 Asian 備貨。",
+      "bento_note": "剩牛肉汁淋飯分格；另加熟青豆。"
+    },
+    {
+      "id": "hk-cart-noodle",
+      "name_zh": "車仔麵（家常湯底版）",
+      "name_en": "Cart Noodle (Home)",
+      "section": "hk",
+      "category": "粉麵類",
+      "tags": [
+        "一家分碗",
+        "可自選",
+        "少辣"
+      ],
+      "servings": "3–4 人",
+      "time_prep": "20 分鐘",
+      "time_cook": "25 分鐘",
+      "intro": "自選配料；適合一家分碗。",
+      "intro_en": "Pick-your-toppings noodle bowls for the family.",
+      "ingredients": [
+        {
+          "name": "麵／米粉／烏冬",
+          "stores": [
+            "Asian"
+          ],
+          "costco_note": "烏冬 CD 偶有",
+          "name_en": "Noodles / rice noodles / udon"
+        },
+        {
+          "name": "魚蛋、牛雜、青菜",
+          "stores": [
+            "Asian",
+            "太平",
+            "各大超市"
+          ],
+          "name_en": "Fish balls, offal, greens"
+        },
+        {
+          "name": "湯：柱侯／沙茶／清湯",
+          "stores": [
+            "Asian"
+          ],
+          "name_en": "Chu hou / satay / clear soup"
+        }
+      ],
+      "steps": [
+        "備湯底（清雞湯或柱侯稀釋）。",
+        "各配料分別煮熟。",
+        "麵煮熟分碗。",
+        "自行夾配料淋湯。",
+        "小朋友用清湯少辣。"
+      ],
+      "draft_disclaimer": "草稿・未驗證・未試煮。步驟為公開常見做法之重寫摘要，非逐字轉載版權食譜。",
+      "hero_icon": "noodles",
+      "nz_note": "特色配料靠 Asian／太平。",
+      "safety": "配料全熟；少辣；牛雜另碟給大人。"
+    },
+    {
+      "id": "hk-salted-egg-gourd-soup",
+      "name_zh": "鹹蛋節瓜肉片湯",
+      "name_en": "Salted Egg & Hairy Gourd Soup",
+      "section": "hk",
+      "category": "湯類",
+      "tags": [
+        "家常湯",
+        "清淡"
+      ],
+      "servings": "3–4 人",
+      "time_prep": "15 分鐘",
+      "time_cook": "25 分鐘",
+      "intro": "清甜節瓜配鹹蛋；家常例湯。",
+      "intro_en": "Light soup with hairy gourd, pork and salted egg.",
+      "ingredients": [
+        {
+          "name": "節瓜",
+          "stores": [
+            "Asian",
+            "太平"
+          ],
+          "costco_note": "CD 偶有",
+          "name_en": "Hairy gourd"
+        },
+        {
+          "name": "豬瘦肉片",
+          "stores": [
+            "CD",
+            "NW",
+            "PnS",
+            "Costco"
+          ],
+          "name_en": "Sliced pork"
+        },
+        {
+          "name": "鹹蛋",
+          "stores": [
+            "Asian",
+            "太平"
+          ],
+          "name_en": "Salted egg"
+        },
+        {
+          "name": "薑片、鹽",
+          "stores": [
+            "各大超市"
+          ],
+          "name_en": "Ginger, salt"
+        }
+      ],
+      "steps": [
+        "節瓜去皮切塊；鹹蛋蒸熟切開。",
+        "水滾下薑及節瓜煲至軟。",
+        "下肉片至變色全熟。",
+        "放入鹹蛋略煮調味。",
+        "趁熱分碗。"
+      ],
+      "draft_disclaimer": "草稿・未驗證・未試煮。步驟為公開常見做法之重寫摘要，非逐字轉載版權食譜。",
+      "hero_icon": "soup",
+      "nz_note": "節瓜／鹹蛋以 Asian／太平較穩。"
+    },
+    {
+      "id": "hk-steam-scallop-noodles",
+      "name_zh": "蒜蓉粉絲蒸帶子／蝦",
+      "name_en": "Steamed Scallops or Prawns with Glass Noodles",
+      "section": "hk",
+      "category": "蒸類",
+      "tags": [
+        "宴客",
+        "海鮮"
+      ],
+      "servings": "3–4 人",
+      "time_prep": "15 分鐘",
+      "time_cook": "12 分鐘",
+      "intro": "蒜香粉絲吸汁；可用帶子或大蝦。",
+      "intro_en": "Garlic glass noodles steamed with scallops or prawns.",
+      "ingredients": [
+        {
+          "name": "帶子或大蝦",
+          "stores": [
+            "CD",
+            "NW",
+            "Costco"
+          ],
+          "costco_note": "【主要 Costco】急凍帶子／蝦",
+          "name_en": "Scallops or prawns"
+        },
+        {
+          "name": "粉絲",
+          "stores": [
+            "Asian"
+          ],
+          "name_en": "Glass noodles"
+        },
+        {
+          "name": "蒜蓉、蒸魚豉油",
+          "stores": [
+            "Asian"
+          ],
+          "name_en": "Garlic, seasoned soy"
+        },
+        {
+          "name": "蔥、油",
+          "stores": [
+            "各大超市"
+          ],
+          "name_en": "Spring onion, oil"
+        }
+      ],
+      "steps": [
+        "粉絲浸软鋪碟。",
+        "海鮮解凍抹乾排上，鋪蒜蓉。",
+        "大火蒸至剛熟。",
+        "淋熱油及蒸魚豉油。",
+        "撒蔥花上桌。"
+      ],
+      "draft_disclaimer": "草稿・未驗證・未試煮。步驟為公開常見做法之重寫摘要，非逐字轉載版權食譜。",
+      "hero_icon": "prawn",
+      "nz_note": "Costco 急凍海鮮划算；粉絲／豉油 Asian。",
+      "safety": "海鮮須新鮮解凍；全熟；過敏注意。"
+    },
+    {
+      "id": "hk-stir-greens",
+      "name_zh": "清炒時蔬（菜心／白菜／菠菜）",
+      "name_en": "Stir-fried Greens",
+      "section": "hk",
+      "category": "炒類",
+      "tags": [
+        "快手",
+        "素食友好",
+        "配菜"
+      ],
+      "servings": "3–4 人",
+      "time_prep": "5 分鐘",
+      "time_cook": "8 分鐘",
+      "intro": "家常配菜；蒜蓉清炒保持爽口。",
+      "intro_en": "Simple garlic stir-fried greens as a side.",
+      "ingredients": [
+        {
+          "name": "菜心／上海青／菠菜",
+          "stores": [
+            "Asian",
+            "CD",
+            "NW",
+            "PnS"
+          ],
+          "name_en": "Choi sum / bok choy / spinach"
+        },
+        {
+          "name": "蒜、油、鹽",
+          "stores": [
+            "各大超市"
+          ],
+          "name_en": "Garlic, oil, salt"
+        },
+        {
+          "name": "生抽可選",
+          "stores": [
+            "Asian"
+          ],
+          "name_en": "Optional light soy"
+        }
+      ],
+      "steps": [
+        "菜洗净切段；蒜切片。",
+        "熱鑊爆香蒜。",
+        "下菜快炒至斷生。",
+        "少許鹽或生抽調味即上碟。"
+      ],
+      "draft_disclaimer": "草稿・未驗證・未試煮。步驟為公開常見做法之重寫摘要，非逐字轉載版權食譜。",
+      "hero_icon": "veg",
+      "nz_note": "Asian 青菜較全；主流超市有 bok choy、spinach。"
+    },
+    {
+      "id": "hk-fish-fragrant-eggplant",
+      "name_zh": "魚香茄子（少辣家常）",
+      "name_en": "Fish-fragrant Eggplant (mild)",
+      "section": "hk",
+      "category": "炒類",
+      "tags": [
+        "下飯",
+        "少辣",
+        "家常"
+      ],
+      "servings": "3–4 人",
+      "time_prep": "15 分鐘",
+      "time_cook": "20 分鐘",
+      "intro": "酸甜蒜香；小朋友可減辣或不放豆瓣。",
+      "intro_en": "Mild sweet-sour garlic eggplant; chilli optional for kids.",
+      "ingredients": [
+        {
+          "name": "茄子",
+          "stores": [
+            "CD",
+            "NW",
+            "PnS"
+          ],
+          "name_en": "Eggplant"
+        },
+        {
+          "name": "蒜、薑、蔥",
+          "stores": [
+            "各大超市"
+          ],
+          "name_en": "Garlic, ginger, spring onion"
+        },
+        {
+          "name": "豆瓣醬（少許）、糖、醋、生抽",
+          "stores": [
+            "Asian"
+          ],
+          "name_en": "Doubanjiang, sugar, vinegar, soy"
+        },
+        {
+          "name": "生粉",
+          "stores": [
+            "Asian",
+            "各大超市"
+          ],
+          "name_en": "Cornstarch"
+        }
+      ],
+      "steps": [
+        "茄子切條可略炸或氣炸至软。",
+        "爆香薑蒜蔥，下少許豆瓣。",
+        "加糖醋生抽及少許水焖。",
+        "下茄子拌匀收汁。",
+        "小朋友：豆瓣極少或不放，改甜酸口味。"
+      ],
+      "draft_disclaimer": "草稿・未驗證・未試煮。步驟為公開常見做法之重寫摘要，非逐字轉載版權食譜。",
+      "hero_icon": "veg",
+      "nz_note": "豆瓣醬 Asian；茄子各大。",
+      "safety": "少辣；全熟。"
+    },
+    {
+      "id": "hk-salt-pepper-tofu",
+      "name_zh": "椒鹽豆腐／蘑菇",
+      "name_en": "Salt & Pepper Tofu or Mushrooms",
+      "section": "hk",
+      "category": "炒類",
+      "tags": [
+        "素食友好",
+        "快手"
+      ],
+      "servings": "3–4 人",
+      "time_prep": "15 分鐘",
+      "time_cook": "15 分鐘",
+      "intro": "素食友好小菜；豆腐或蘑菇皆可。",
+      "intro_en": "Crispy salt-and-pepper tofu or mushrooms.",
+      "ingredients": [
+        {
+          "name": "硬豆腐或蘑菇",
+          "stores": [
+            "CD",
+            "NW",
+            "Asian",
+            "各大超市"
+          ],
+          "costco_note": "Costco 偶有豆腐",
+          "name_en": "Firm tofu or mushrooms"
+        },
+        {
+          "name": "椒鹽粉：鹽、白胡椒、五香",
+          "stores": [
+            "Asian"
+          ],
+          "name_en": "Salt, white pepper, five-spice"
+        },
+        {
+          "name": "蔥、椒、蒜",
+          "stores": [
+            "各大超市"
+          ],
+          "name_en": "Spring onion, chilli, garlic"
+        },
+        {
+          "name": "生粉、油",
+          "stores": [
+            "各大超市"
+          ],
+          "name_en": "Starch, oil"
+        }
+      ],
+      "steps": [
+        "豆腐吸水切塊，薄粉炸或氣炸至脆。",
+        "爆香蔥椒蒜。",
+        "下豆腐快炒撒椒鹽。",
+        "即上碟趁熱食。"
+      ],
+      "draft_disclaimer": "草稿・未驗證・未試煮。步驟為公開常見做法之重寫摘要，非逐字轉載版權食譜。",
+      "hero_icon": "veg",
+      "nz_note": "適合。",
+      "safety": "熱油謹慎；小朋友少椒。"
+    },
+    {
+      "id": "hk-onion-egg",
+      "name_zh": "洋蔥炒蛋",
+      "name_en": "Onion Scrambled Egg",
+      "section": "hk",
+      "category": "炒類",
+      "tags": [
+        "快手",
+        "小朋友友好",
+        "配菜"
+      ],
+      "servings": "3–4 人",
+      "time_prep": "5 分鐘",
+      "time_cook": "8 分鐘",
+      "intro": "快手配菜。",
+      "intro_en": "Quick onion scrambled eggs as a side.",
+      "ingredients": [
+        {
+          "name": "雞蛋、洋蔥",
+          "stores": [
+            "各大超市",
+            "Costco"
+          ],
+          "name_en": "Eggs, onion"
+        },
+        {
+          "name": "鹽、油",
+          "stores": [
+            "各大超市"
+          ],
+          "name_en": "Salt, oil"
+        }
+      ],
+      "steps": [
+        "洋蔥絲炒软。",
+        "倒蛋液炒至剛好凝固。",
+        "可加少許番茄酱變化。"
+      ],
+      "draft_disclaimer": "草稿・未驗證・未試煮。步驟為公開常見做法之重寫摘要，非逐字轉載版權食譜。",
+      "hero_icon": "egg-tomato",
+      "nz_note": "完全適合。",
+      "bento_note": "剩蛋切件入便當；晨早翻熱。"
+    },
+    {
+      "id": "hk-egg-sandwich",
+      "name_zh": "煎蛋三文治（港式早餐風）",
+      "name_en": "Egg Sandwich (HK café style)",
+      "section": "hk",
+      "category": "小食／早餐",
+      "tags": [
+        "快手",
+        "早餐",
+        "小朋友友好"
+      ],
+      "servings": "2–3 人",
+      "time_prep": "5 分鐘",
+      "time_cook": "10 分鐘",
+      "intro": "快手；可用 NZ 麵包。",
+      "intro_en": "HK café-style egg sandwich on local bread.",
+      "ingredients": [
+        {
+          "name": "方包",
+          "stores": [
+            "CD",
+            "NW",
+            "PnS",
+            "Costco"
+          ],
+          "name_en": "Sliced bread"
+        },
+        {
+          "name": "雞蛋、牛油",
+          "stores": [
+            "各大超市",
+            "Costco"
+          ],
+          "name_en": "Eggs, butter"
+        },
+        {
+          "name": "煉奶或茄汁可選",
+          "stores": [
+            "Asian",
+            "各大超市"
+          ],
+          "name_en": "Optional condensed milk or ketchup"
+        }
+      ],
+      "steps": [
+        "蛋煎成厚蛋片。",
+        "麵包可抹牛油／煉奶。",
+        "夾蛋切三角。"
+      ],
+      "draft_disclaimer": "草稿・未驗證・未試煮。步驟為公開常見做法之重寫摘要，非逐字轉載版權食譜。",
+      "hero_icon": "egg-tomato",
+      "nz_note": "完全適合。"
+    },
+    {
+      "id": "nz-shepherds-pie",
+      "name_zh": "牧羊人批／肉餡薯蓉批",
+      "name_en": "Shepherd's / Cottage Pie",
+      "section": "nz",
+      "category": "西餐主菜",
+      "tags": [
+        "家庭餐",
+        "可冷凍",
+        "小朋友友好"
+      ],
+      "servings": "4–6 人",
+      "time_prep": "25 分鐘",
+      "time_cook": "35 分鐘",
+      "intro": "NZ／英式家常；可造兩盤一鮮一凍。",
+      "intro_en": "Classic mince and mash bake; freeze a second tray.",
+      "ingredients": [
+        {
+          "name": "免治羊或牛",
+          "stores": [
+            "各大超市",
+            "Costco"
+          ],
+          "name_en": "Minced lamb or beef"
+        },
+        {
+          "name": "洋蔥、紅蘿蔔、青豆、番茄膏",
+          "stores": [
+            "各大超市"
+          ],
+          "name_en": "Onion, carrot, peas, tomato paste"
+        },
+        {
+          "name": "薯仔、奶、牛油",
+          "stores": [
+            "各大超市",
+            "Costco"
+          ],
+          "name_en": "Potato, milk, butter"
+        },
+        {
+          "name": "芝士可選",
+          "stores": [
+            "各大超市",
+            "Costco"
+          ],
+          "name_en": "Optional cheese"
+        }
+      ],
+      "steps": [
+        "炒香菜粒及免治肉。",
+        "加番茄膏及少許湯焖。",
+        "鋪焗盤，上蓋薯蓉及芝士。",
+        "焗至面金黃。"
+      ],
+      "draft_disclaimer": "草稿・未驗證・未試煮。步驟為公開常見做法之重寫摘要，非逐字轉載版權食譜。",
+      "hero_icon": "pork",
+      "nz_note": "適合。",
+      "bento_note": "切件冷藏；晨早翻熱至熱透。",
+      "hk_tweak": "免治可加少許蠔油；配酸辣泡菜。"
+    },
+    {
+      "id": "nz-meat-pie",
+      "name_zh": "肉批（牛肉／牛排骨批）",
+      "name_en": "Meat Pie",
+      "section": "nz",
+      "category": "西餐主菜",
+      "tags": [
+        "NZ 經典",
+        "可便當"
+      ],
+      "servings": "4–6 個",
+      "time_prep": "30 分鐘",
+      "time_cook": "30 分鐘",
+      "intro": "NZ bakery 文化；家可簡易版。",
+      "intro_en": "Kiwi bakery classic — easy home version with puff pastry.",
+      "ingredients": [
+        {
+          "name": "酥皮 Puff pastry",
+          "stores": [
+            "CD",
+            "NW",
+            "PnS"
+          ],
+          "costco_note": "Costco 偶有",
+          "name_en": "Puff pastry"
+        },
+        {
+          "name": "免治牛或燉牛肉",
+          "stores": [
+            "各大超市",
+            "Costco"
+          ],
+          "name_en": "Minced or stewing beef"
+        },
+        {
+          "name": "洋蔥、牛肉粒湯或 gravy 粉",
+          "stores": [
+            "各大超市"
+          ],
+          "name_en": "Onion, gravy"
+        }
+      ],
+      "steps": [
+        "炒肉餡调味放凉。",
+        "酥皮鋪模放餡。",
+        "蓋皮刷蛋液。",
+        "焗至金黃膨脹。"
+      ],
+      "draft_disclaimer": "草稿・未驗證・未試煮。步驟為公開常見做法之重寫摘要，非逐字轉載版權食譜。",
+      "hero_icon": "pork",
+      "nz_note": "適合。",
+      "safety": "餡料全熟；酥皮焗至金黃。",
+      "hk_tweak": "餡加咖喱粉變咖喱牛肉批。"
+    },
+    {
+      "id": "nz-caesar",
+      "name_zh": "凱撒沙律（家常）",
+      "name_en": "Caesar Salad",
+      "section": "nz",
+      "category": "沙律／配菜",
+      "tags": [
+        "配扒",
+        "午餐"
+      ],
+      "servings": "3–4 人",
+      "time_prep": "15 分鐘",
+      "time_cook": "10 分鐘",
+      "intro": "配扒或作午餐。",
+      "intro_en": "Side salad with steak or a light lunch.",
+      "ingredients": [
+        {
+          "name": "蘿苣 Cos／Romaine",
+          "stores": [
+            "各大超市"
+          ],
+          "name_en": "Cos/Romaine lettuce"
+        },
+        {
+          "name": "麵包丁、芝士 Parmigiano",
+          "stores": [
+            "各大超市",
+            "Costco"
+          ],
+          "name_en": "Croutons, Parmesan"
+        },
+        {
+          "name": "凱撒醬或自製",
+          "stores": [
+            "各大超市"
+          ],
+          "name_en": "Caesar dressing"
+        },
+        {
+          "name": "煙肉丁可選",
+          "stores": [
+            "各大超市",
+            "Costco"
+          ],
+          "name_en": "Optional bacon"
+        }
+      ],
+      "steps": [
+        "菜洗乾切件。",
+        "煙肉麵包丁烤脆。",
+        "拌醬即食。"
+      ],
+      "draft_disclaimer": "草稿・未驗證・未試煮。步驟為公開常見做法之重寫摘要，非逐字轉載版權食譜。",
+      "hero_icon": "veg",
+      "nz_note": "適合。",
+      "safety": "即拌即食；含蛋醬注意冷藏。",
+      "hk_tweak": "可加口水雞絲或改芝麻醬。"
+    },
+    {
+      "id": "nz-potato-salad",
+      "name_zh": "薯仔沙律",
+      "name_en": "Potato Salad",
+      "section": "nz",
+      "category": "沙律／配菜",
+      "tags": [
+        "BBQ 配菜",
+        "便當注意冷藏"
+      ],
+      "servings": "4–6 人",
+      "time_prep": "15 分鐘",
+      "time_cook": "20 分鐘",
+      "intro": "BBQ 配菜；可做便當（注意冷藏）。",
+      "intro_en": "BBQ side; keep chilled for lunchboxes.",
+      "ingredients": [
+        {
+          "name": "薯仔",
+          "stores": [
+            "各大超市",
+            "Costco"
+          ],
+          "name_en": "Potatoes"
+        },
+        {
+          "name": "蛋黃醬、芥末、蔥、煮蛋",
+          "stores": [
+            "各大超市"
+          ],
+          "name_en": "Mayo, mustard, spring onion, eggs"
+        }
+      ],
+      "steps": [
+        "薯仔煮熟切塊放凉。",
+        "拌醬及蛋蔥。",
+        "冷藏後更入味。"
+      ],
+      "draft_disclaimer": "草稿・未驗證・未試煮。步驟為公開常見做法之重寫摘要，非逐字轉載版權食譜。",
+      "hero_icon": "veg",
+      "nz_note": "適合。",
+      "bento_note": "保持冷藏，勿室温長放。",
+      "safety": "蛋黃醬沙律須保冷。"
+    },
+    {
+      "id": "nz-bacon-eggs",
+      "name_zh": "煙肉蛋早餐",
+      "name_en": "Bacon & Eggs Breakfast",
+      "section": "nz",
+      "category": "早餐",
+      "tags": [
+        "快手",
+        "NZ 經典"
+      ],
+      "servings": "2–3 人",
+      "time_prep": "5 分鐘",
+      "time_cook": "15 分鐘",
+      "intro": "NZ 經典早餐。",
+      "intro_en": "Classic Kiwi bacon and eggs breakfast.",
+      "ingredients": [
+        {
+          "name": "煙肉 Bacon",
+          "stores": [
+            "CD",
+            "NW",
+            "PnS",
+            "Costco"
+          ],
+          "costco_note": "【主要 Costco】大包裝",
+          "name_en": "Bacon"
+        },
+        {
+          "name": "雞蛋、蕃茄、蘑菇、烤豆可選",
+          "stores": [
+            "各大超市",
+            "Costco"
+          ],
+          "name_en": "Eggs, tomato, mushrooms, optional beans"
+        },
+        {
+          "name": "吐司",
+          "stores": [
+            "各大超市"
+          ],
+          "name_en": "Toast"
+        }
+      ],
+      "steps": [
+        "煎煙肉至理想脆度。",
+        "同鍋或另煎蛋。",
+        "配烤茄菇及多士。"
+      ],
+      "draft_disclaimer": "草稿・未驗證・未試煮。步驟為公開常見做法之重寫摘要，非逐字轉載版權食譜。",
+      "hero_icon": "egg-tomato",
+      "nz_note": "適合。",
+      "hk_tweak": "加午餐肉或配奶茶。"
+    },
+    {
+      "id": "nz-porridge",
+      "name_zh": "燕麥粥／隔夜燕麥",
+      "name_en": "Porridge / Overnight Oats",
+      "section": "nz",
+      "category": "早餐",
+      "tags": [
+        "快手",
+        "早餐"
+      ],
+      "servings": "2–3 人",
+      "time_prep": "5 分鐘",
+      "time_cook": "10 分鐘",
+      "intro": "快手早餐。",
+      "intro_en": "Quick porridge or overnight oats.",
+      "ingredients": [
+        {
+          "name": "燕麥 Oats",
+          "stores": [
+            "各大超市",
+            "Costco"
+          ],
+          "costco_note": "【主要 Costco】大筒",
+          "name_en": "Oats"
+        },
+        {
+          "name": "奶或乳酪、水果、蜜糖",
+          "stores": [
+            "各大超市",
+            "Costco"
+          ],
+          "name_en": "Milk/yoghurt, fruit, honey"
+        }
+      ],
+      "steps": [
+        "燕麥加奶煮至稠；或冷浸隔夜。",
+        "加水果堅果。"
+      ],
+      "draft_disclaimer": "草稿・未驗證・未試煮。步驟為公開常見做法之重寫摘要，非逐字轉載版權食譜。",
+      "hero_icon": "default",
+      "nz_note": "適合。"
+    },
+    {
+      "id": "nz-pasta-bake",
+      "name_zh": "焗意粉（芝士肉醬）",
+      "name_en": "Baked Pasta / Pasta Bake",
+      "section": "nz",
+      "category": "意粉",
+      "tags": [
+        "家庭餐",
+        "小朋友友好",
+        "便當友好"
+      ],
+      "servings": "4–6 人",
+      "time_prep": "20 分鐘",
+      "time_cook": "30 分鐘",
+      "intro": "一大盤焗；剩菜便當友好。",
+      "intro_en": "One-tray cheesy pasta bake; leftovers pack well.",
+      "ingredients": [
+        {
+          "name": "短意粉",
+          "stores": [
+            "各大超市",
+            "Costco"
+          ],
+          "name_en": "Short pasta"
+        },
+        {
+          "name": "免治牛或雞、番茄酱",
+          "stores": [
+            "各大超市",
+            "Costco"
+          ],
+          "name_en": "Mince, tomato sauce"
+        },
+        {
+          "name": "芝士絲",
+          "stores": [
+            "各大超市",
+            "Costco"
+          ],
+          "name_en": "Grated cheese"
+        }
+      ],
+      "steps": [
+        "意粉煮至稍硬瀝乾。",
+        "炒肉酱拌匀。",
+        "鋪盤撒芝士焗至金黃。"
+      ],
+      "draft_disclaimer": "草稿・未驗證・未試煮。步驟為公開常見做法之重寫摘要，非逐字轉載版權食譜。",
+      "hero_icon": "pasta",
+      "nz_note": "適合。",
+      "bento_note": "切塊入盒；晨早翻熱。"
+    },
+    {
+      "id": "nz-bbq-wings",
+      "name_zh": "雞翼（焗／BBQ）",
+      "name_en": "Baked / BBQ Chicken Wings",
+      "section": "nz",
+      "category": "西餐主菜",
+      "tags": [
+        "BBQ",
+        "小朋友友好"
+      ],
+      "servings": "4 人",
+      "time_prep": "15 分鐘",
+      "time_cook": "35 分鐘",
+      "intro": "焗爐或 BBQ；可提前醃。",
+      "intro_en": "Oven or BBQ wings; marinate ahead.",
+      "ingredients": [
+        {
+          "name": "雞翼",
+          "stores": [
+            "CD",
+            "NW",
+            "PnS",
+            "Costco"
+          ],
+          "costco_note": "【主要 Costco】大包裝雞翼",
+          "name_en": "Chicken wings"
+        },
+        {
+          "name": "BBQ 醬或蜜糖芥末",
+          "stores": [
+            "各大超市",
+            "Costco"
+          ],
+          "name_en": "BBQ or honey-mustard sauce"
+        },
+        {
+          "name": "鹽、椒、蒜粉",
+          "stores": [
+            "各大超市"
+          ],
+          "name_en": "Salt, pepper, garlic powder"
+        }
+      ],
+      "steps": [
+        "雞翼抹乾醃醬。",
+        "焗約 180–200°C 至全熟上色；或 BBQ。",
+        "中途翻面再刷醬。"
+      ],
+      "draft_disclaimer": "草稿・未驗證・未試煮。步驟為公開常見做法之重寫摘要，非逐字轉載版權食譜。",
+      "hero_icon": "chicken",
+      "nz_note": "適合。",
+      "bento_note": "2–3 隻全熟雞翼＋菜；去骨更友好。",
+      "safety": "雞翼須全熟（汁清）；小朋友去骨更安全。"
+    },
+    {
+      "id": "nz-pumpkin-soup",
+      "name_zh": "南瓜湯",
+      "name_en": "Pumpkin Soup",
+      "section": "nz",
+      "category": "湯類",
+      "tags": [
+        "暖胃",
+        "可冷凍",
+        "小朋友友好"
+      ],
+      "servings": "4–6 人",
+      "time_prep": "15 分鐘",
+      "time_cook": "30 分鐘",
+      "intro": "秋冬暖湯；可打蓉。",
+      "intro_en": "Creamy pumpkin soup for cooler days.",
+      "ingredients": [
+        {
+          "name": "南瓜",
+          "stores": [
+            "各大超市",
+            "Costco"
+          ],
+          "name_en": "Pumpkin"
+        },
+        {
+          "name": "洋蔥、蒜、清雞湯或水",
+          "stores": [
+            "各大超市"
+          ],
+          "name_en": "Onion, garlic, stock"
+        },
+        {
+          "name": "鮮奶油可選、鹽椒",
+          "stores": [
+            "各大超市"
+          ],
+          "name_en": "Optional cream, seasoning"
+        }
+      ],
+      "steps": [
+        "南瓜洋蔥切塊炒香。",
+        "加湯焖至软。",
+        "打蓉調味；可加奶油。"
+      ],
+      "draft_disclaimer": "草稿・未驗證・未試煮。步驟為公開常見做法之重寫摘要，非逐字轉載版權食譜。",
+      "hero_icon": "soup",
+      "nz_note": "適合。",
+      "bento_note": "暖壺湯（校規允許時）；勿漏。"
+    },
+    {
+      "id": "nz-salmon",
+      "name_zh": "三文魚烤排",
+      "name_en": "Baked Salmon Fillet",
+      "section": "nz",
+      "category": "海鮮",
+      "tags": [
+        "快手",
+        "高蛋白"
+      ],
+      "servings": "3–4 人",
+      "time_prep": "10 分鐘",
+      "time_cook": "15 分鐘",
+      "intro": "烤箱快手；配菜或沙律。",
+      "intro_en": "Quick oven salmon with veg or salad.",
+      "ingredients": [
+        {
+          "name": "三文魚柳",
+          "stores": [
+            "CD",
+            "NW",
+            "PnS",
+            "Costco"
+          ],
+          "costco_note": "【主要 Costco】急凍／鮮三文魚",
+          "name_en": "Salmon fillet"
+        },
+        {
+          "name": "檸檬、橄欖油、鹽椒、香草",
+          "stores": [
+            "各大超市"
+          ],
+          "name_en": "Lemon, oil, herbs"
+        }
+      ],
+      "steps": [
+        "魚抹乾，淋油鹽椒檸檬。",
+        "約 180–200°C 烤至剛熟。",
+        "靜置片刻上碟。"
+      ],
+      "draft_disclaimer": "草稿・未驗證・未試煮。步驟為公開常見做法之重寫摘要，非逐字轉載版權食譜。",
+      "hero_icon": "fish",
+      "nz_note": "Costco 三文魚划算。",
+      "safety": "魚須熟透（或按自家生熟偏好）；過敏注意。",
+      "hk_tweak": "可加蒸魚豉油蔥絲。"
+    },
+    {
+      "id": "xo-soy-chicken-nz",
+      "name_zh": "豉油雞（NZ 雞腿）",
+      "name_en": "Soy Chicken with NZ Drumsticks",
+      "section": "crossover",
+      "category": "港式×NZ",
+      "tags": [
+        "下飯",
+        "家庭餐"
+      ],
+      "servings": "3–4 人",
+      "time_prep": "10 分鐘",
+      "time_cook": "30 分鐘",
+      "intro": "港式豉油雞味道；用 NZ 雞腿。",
+      "intro_en": "HK soy chicken flavour with NZ drumsticks.",
+      "ingredients": [
+        {
+          "name": "NZ 雞腿／連皮雞脾",
+          "stores": [
+            "CD",
+            "NW",
+            "PnS",
+            "Costco"
+          ],
+          "costco_note": "【主要 Costco】",
+          "name_en": "NZ chicken drumsticks"
+        },
+        {
+          "name": "生抽老抽冰糖薑蔥",
+          "stores": [
+            "Asian",
+            "各大超市"
+          ],
+          "name_en": "Soy, rock sugar, ginger, spring onion"
+        }
+      ],
+      "steps": [
+        "雞腿抹乾可劃刀。",
+        "薑蔥爆香下雞略煎。",
+        "加醬料及水焖至全熟。",
+        "汁收濃淋飯。"
+      ],
+      "draft_disclaimer": "草稿・未驗證・未試煮。步驟為公開常見做法之重寫摘要，非逐字轉載版權食譜。",
+      "hero_icon": "chicken",
+      "nz_note": "適合；豉油 Asian。",
+      "bento_note": "剩雞切片＋飯；汁另盒防漏。"
+    },
+    {
+      "id": "xo-tomato-egg-nz",
+      "name_zh": "番茄炒蛋（NZ 蛋茄）",
+      "name_en": "HK Tomato Egg (NZ produce)",
+      "section": "crossover",
+      "category": "港式×NZ",
+      "tags": [
+        "快手",
+        "交叉示範"
+      ],
+      "servings": "3–4 人",
+      "time_prep": "10 分鐘",
+      "time_cook": "15 分鐘",
+      "intro": "同一港式味道；材料全 NZ 主流超市可買。",
+      "intro_en": "Same HK classic using NZ supermarket produce.",
+      "ingredients": [
+        {
+          "name": "雞蛋、番茄、蔥",
+          "stores": [
+            "CD",
+            "NW",
+            "PnS",
+            "Costco"
+          ],
+          "name_en": "Eggs, tomato, spring onion"
+        },
+        {
+          "name": "生抽、糖、油",
+          "stores": [
+            "Asian",
+            "各大超市"
+          ],
+          "name_en": "Soy, sugar, oil"
+        }
+      ],
+      "steps": [
+        "同港式番茄炒蛋步驟。",
+        "用 NZ 番茄蛋；醬料 Asian 補貨。"
+      ],
+      "draft_disclaimer": "草稿・未驗證・未試煮。步驟為公開常見做法之重寫摘要，非逐字轉載版權食譜。",
+      "hero_icon": "egg-tomato",
+      "nz_note": "完全適合。"
+    },
+    {
+      "id": "xo-steam-fish-nz",
+      "name_zh": "蒜蓉蒸 NZ 白肉魚",
+      "name_en": "Garlic-steamed NZ White Fish",
+      "section": "crossover",
+      "category": "港式×NZ",
+      "tags": [
+        "蒸",
+        "清淡"
+      ],
+      "servings": "3–4 人",
+      "time_prep": "10 分鐘",
+      "time_cook": "12 分鐘",
+      "intro": "港式蒜蓉蒸魚；用 NZ 白魚柳。",
+      "intro_en": "HK garlic steam method on NZ white fish.",
+      "ingredients": [
+        {
+          "name": "NZ 白魚柳",
+          "stores": [
+            "CD",
+            "NW",
+            "PnS",
+            "Costco"
+          ],
+          "name_en": "NZ white fish fillets"
+        },
+        {
+          "name": "蒜蓉、蒸魚豉油、蔥、油",
+          "stores": [
+            "Asian",
+            "各大超市"
+          ],
+          "name_en": "Garlic, seasoned soy, spring onion, oil"
+        }
+      ],
+      "steps": [
+        "魚抹乾鋪碟撒蒜。",
+        "大火蒸至刚熟。",
+        "淋熱油豉油撒蔥。"
+      ],
+      "draft_disclaimer": "草稿・未驗證・未試煮。步驟為公開常見做法之重寫摘要，非逐字轉載版權食譜。",
+      "hero_icon": "fish",
+      "nz_note": "適合。",
+      "safety": "魚全熟；勿生食入便當。"
+    },
+    {
+      "id": "xo-charsiu-pork-nz",
+      "name_zh": "叉燒味焗 NZ 豬鞍",
+      "name_en": "Char siu–glazed NZ Pork",
+      "section": "crossover",
+      "category": "港式×NZ",
+      "tags": [
+        "焗爐",
+        "下飯"
+      ],
+      "servings": "3–4 人",
+      "time_prep": "15 分鐘＋醃",
+      "time_cook": "30 分鐘",
+      "intro": "叉燒甜鹹味焗 NZ 豬鞍。",
+      "intro_en": "Char siu-style glaze on NZ pork scotch.",
+      "ingredients": [
+        {
+          "name": "豬鞍／豬扒",
+          "stores": [
+            "CD",
+            "NW",
+            "PnS",
+            "Costco"
+          ],
+          "name_en": "Pork scotch / chops"
+        },
+        {
+          "name": "叉燒醬或蜜糖＋生抽＋五香",
+          "stores": [
+            "Asian"
+          ],
+          "name_en": "Char siu sauce or honey-soy-five-spice"
+        }
+      ],
+      "steps": [
+        "豬件醃叉燒味 30 分鐘以上。",
+        "煎或焗至全熟上色。",
+        "切件淋汁。"
+      ],
+      "draft_disclaimer": "草稿・未驗證・未試煮。步驟為公開常見做法之重寫摘要，非逐字轉載版權食譜。",
+      "hero_icon": "pork",
+      "nz_note": "叉燒醬 Asian。",
+      "safety": "豬肉全熟。"
+    },
+    {
+      "id": "xo-ginger-seafood",
+      "name_zh": "薑蔥炒 NZ 蟹／假蟹棒版",
+      "name_en": "Ginger-scallion Seafood Stir-fry",
+      "section": "crossover",
+      "category": "港式×NZ",
+      "tags": [
+        "鑊氣",
+        "海鮮"
+      ],
+      "servings": "3–4 人",
+      "time_prep": "15 分鐘",
+      "time_cook": "12 分鐘",
+      "intro": "薑蔥爆香；蟹或大蝦／白魚／蟹棒皆可。",
+      "intro_en": "Ginger-scallion stir-fry with crab, prawns or sticks.",
+      "ingredients": [
+        {
+          "name": "蟹或大蝦／白魚／蟹棒",
+          "stores": [
+            "CD",
+            "NW",
+            "Costco",
+            "Asian"
+          ],
+          "name_en": "Crab, prawns, white fish or sticks"
+        },
+        {
+          "name": "薑、蔥、蒜、生抽、油",
+          "stores": [
+            "各大超市",
+            "Asian"
+          ],
+          "name_en": "Ginger, spring onion, garlic, soy"
+        }
+      ],
+      "steps": [
+        "薑蔥切絲爆香。",
+        "下海鮮快炒至熟。",
+        "少許生抽調味上碟。"
+      ],
+      "draft_disclaimer": "草稿・未驗證・未試煮。步驟為公開常見做法之重寫摘要，非逐字轉載版權食譜。",
+      "hero_icon": "prawn",
+      "nz_note": "海鮮 Costco／CD；醬料 Asian。",
+      "safety": "海鮮全熟；過敏注意。"
+    },
+    {
+      "id": "xo-typhoon-prawns",
+      "name_zh": "避風塘口味炒 NZ 蝦",
+      "name_en": "Typhoon-shelter style NZ Prawns",
+      "section": "crossover",
+      "category": "港式×NZ",
+      "tags": [
+        "蒜香",
+        "宴客"
+      ],
+      "servings": "3–4 人",
+      "time_prep": "15 分鐘",
+      "time_cook": "12 分鐘",
+      "intro": "避風塘蒜椒碎香；用 NZ／Costco 大蝦。",
+      "intro_en": "Garlic-chilli crumb style prawns with NZ stock.",
+      "ingredients": [
+        {
+          "name": "大蝦",
+          "stores": [
+            "Costco",
+            "CD",
+            "NW"
+          ],
+          "costco_note": "【主要 Costco】",
+          "name_en": "Prawns"
+        },
+        {
+          "name": "蒜蓉、乾蔥、辣椒、麵包糠可選",
+          "stores": [
+            "各大超市",
+            "Asian"
+          ],
+          "name_en": "Garlic, shallot, chilli, optional crumbs"
+        },
+        {
+          "name": "鹽、油",
+          "stores": [
+            "各大超市"
+          ],
+          "name_en": "Salt, oil"
+        }
+      ],
+      "steps": [
+        "蝦處理抹乾。",
+        "爆香蒜乾蔥椒。",
+        "下蝦快炒至熟，可拌糠。",
+        "少辣給小朋友。"
+      ],
+      "draft_disclaimer": "草稿・未驗證・未試煮。步驟為公開常見做法之重寫摘要，非逐字轉載版權食譜。",
+      "hero_icon": "prawn",
+      "nz_note": "Costco 蝦優選。",
+      "safety": "少辣；全熟。"
+    },
+    {
+      "id": "xo-curry-baked-rice",
+      "name_zh": "港式咖喱焗飯（NZ 雞／牛肉）",
+      "name_en": "HK Curry Baked Rice",
+      "section": "crossover",
+      "category": "港式×NZ",
+      "tags": [
+        "焗爐",
+        "小朋友友好"
+      ],
+      "servings": "3–4 人",
+      "time_prep": "20 分鐘",
+      "time_cook": "25 分鐘",
+      "intro": "茶餐廳風咖喱焗飯；蛋白用 NZ 雞或牛。",
+      "intro_en": "Café-style curry baked rice with NZ meat.",
+      "ingredients": [
+        {
+          "name": "咖喱磚／粉",
+          "stores": [
+            "Asian",
+            "CD"
+          ],
+          "name_en": "Curry block or powder"
+        },
+        {
+          "name": "雞塊或免治牛、薯仔、紅蘿蔔",
+          "stores": [
+            "各大超市",
+            "Costco"
+          ],
+          "name_en": "Chicken or mince, potato, carrot"
+        },
+        {
+          "name": "白飯、芝士可選、蛋可選",
+          "stores": [
+            "各大超市"
+          ],
+          "name_en": "Rice, optional cheese/egg"
+        }
+      ],
+      "steps": [
+        "咖喱煮肉菜至熟。",
+        "飯鋪盤上咖喱。",
+        "可打蛋或撒芝士焗面。"
+      ],
+      "draft_disclaimer": "草稿・未驗證・未試煮。步驟為公開常見做法之重寫摘要，非逐字轉載版權食譜。",
+      "hero_icon": "chicken",
+      "nz_note": "咖喱磚 Asian 有日式；CD 有西式粉。",
+      "bento_note": "剩焗飯切件；翻熱。"
+    },
+    {
+      "id": "xo-blackbean-mussels",
+      "name_zh": "豉汁 NZ 青口",
+      "name_en": "Black Bean NZ Mussels",
+      "section": "crossover",
+      "category": "港式×NZ",
+      "tags": [
+        "海鮮",
+        "快手"
+      ],
+      "servings": "3–4 人",
+      "time_prep": "10 分鐘",
+      "time_cook": "12 分鐘",
+      "intro": "豆豉蒜椒爆香炒 NZ 青口。",
+      "intro_en": "NZ mussels stir-fried with black bean garlic.",
+      "ingredients": [
+        {
+          "name": "青口 Mussels",
+          "stores": [
+            "CD",
+            "NW"
+          ],
+          "costco_note": "Costco 偶有",
+          "name_en": "Mussels"
+        },
+        {
+          "name": "豆豉蒜椒、薑蔥",
+          "stores": [
+            "Asian"
+          ],
+          "name_en": "Black bean, garlic, chilli, ginger"
+        }
+      ],
+      "steps": [
+        "青口清洗去鬚。",
+        "爆香豆豉蒜椒薑蔥。",
+        "下青口加蓋焖至開口。",
+        "棄未開口者。"
+      ],
+      "draft_disclaimer": "草稿・未驗證・未試煮。步驟為公開常見做法之重寫摘要，非逐字轉載版權食譜。",
+      "hero_icon": "prawn",
+      "nz_note": "青口 CD／NW；豆豉 Asian。",
+      "safety": "未開口青口丟棄；海鮮過敏注意。"
+    },
+    {
+      "id": "xo-salted-egg-pumpkin",
+      "name_zh": "鹹蛋黃焗南瓜／蝦（NZ 南瓜）",
+      "name_en": "Salted Egg Yolk Pumpkin / Prawns",
+      "section": "crossover",
+      "category": "港式×NZ",
+      "tags": [
+        "鹹香",
+        "可素"
+      ],
+      "servings": "3–4 人",
+      "time_prep": "15 分鐘",
+      "time_cook": "20 分鐘",
+      "intro": "鹹蛋黃醬拌 NZ 南瓜；可加蝦。",
+      "intro_en": "Salted egg yolk sauce over NZ pumpkin; prawns optional.",
+      "ingredients": [
+        {
+          "name": "南瓜",
+          "stores": [
+            "各大超市",
+            "Costco"
+          ],
+          "name_en": "Pumpkin"
+        },
+        {
+          "name": "鹹蛋黃",
+          "stores": [
+            "Asian",
+            "太平"
+          ],
+          "name_en": "Salted egg yolk"
+        },
+        {
+          "name": "牛油、蒜、奶或水、蝦可選",
+          "stores": [
+            "各大超市",
+            "Costco"
+          ],
+          "name_en": "Butter, garlic, milk/water, optional prawns"
+        }
+      ],
+      "steps": [
+        "南瓜蒸或焗至软。",
+        "鹹蛋黃壓蓉與牛油蒜炒出泡沫。",
+        "拌南瓜（及蝦）上碟。"
+      ],
+      "draft_disclaimer": "草稿・未驗證・未試煮。步驟為公開常見做法之重寫摘要，非逐字轉載版權食譜。",
+      "hero_icon": "veg",
+      "nz_note": "鹹蛋黃必須 Asian／太平。"
+    },
+    {
+      "id": "xo-sweet-sour-pork",
+      "name_zh": "港式甜酸豬柳（NZ 豬）",
+      "name_en": "Sweet & Sour NZ Pork",
+      "section": "crossover",
+      "category": "港式×NZ",
+      "tags": [
+        "小朋友友好",
+        "下飯"
+      ],
+      "servings": "3–4 人",
+      "time_prep": "20 分鐘",
+      "time_cook": "25 分鐘",
+      "intro": "酸甜咕嚕風；用 NZ 豬柳。",
+      "intro_en": "Sweet-and-sour style with NZ pork.",
+      "ingredients": [
+        {
+          "name": "豬柳／豬鞍",
+          "stores": [
+            "CD",
+            "NW",
+            "PnS",
+            "Costco"
+          ],
+          "name_en": "Pork fillet / scotch"
+        },
+        {
+          "name": "青椒、洋蔥、菠蘿可選",
+          "stores": [
+            "各大超市"
+          ],
+          "name_en": "Capsicum, onion, optional pineapple"
+        },
+        {
+          "name": "茄汁、糖、醋、生抽",
+          "stores": [
+            "各大超市",
+            "Asian"
+          ],
+          "name_en": "Ketchup, sugar, vinegar, soy"
+        }
+      ],
+      "steps": [
+        "豬件切塊可薄粉煎或氣炸。",
+        "炒菜加甜酸醬。",
+        "下豬件拌匀收汁。"
+      ],
+      "draft_disclaimer": "草稿・未驗證・未試煮。步驟為公開常見做法之重寫摘要，非逐字轉載版權食譜。",
+      "hero_icon": "pork",
+      "nz_note": "適合。",
+      "bento_note": "剩菜＋飯；醬少許防漏。",
+      "safety": "豬肉全熟。"
     }
-  ]
+  ],
+  "site_name_zh": "今晚食乜餸",
+  "site_name_en": "Tonight Eat What Give"
 }

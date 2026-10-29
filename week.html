@@ -4,11 +4,10 @@
   <script>
 /* GitHub Pages project base — 改 repo 名必須改 REPO */
 (function(){var REPO="tonighteatwhatgive";var p=location.pathname;var base="./";if(p==="/"+REPO||p.indexOf("/"+REPO+"/")===0){base="/"+REPO+"/";}else{var i=p.lastIndexOf("/");if(i>=0)base=p.slice(0,i+1)||"./";}document.write('<base href="'+base+'">');window.__SITE_BASE__=base;})();
-
 </script>
 <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>每日推介（一週）｜太太菜譜站</title>
+  <title>每日推介（一週）｜今晚食乜餸</title>
   <link rel="stylesheet" href="css/site.css">
 </head>
 <body>
@@ -16,15 +15,16 @@
   <main class="wrap">
     <section class="hero">
       <div class="badge-row">
-        <span class="badge ok">1 大人＋3 小朋友</span>
-        <span class="badge warn">草稿・未驗證・未試煮</span>
+        <span class="badge ok" data-i18n="badgeFamily">1 大人＋3 小朋友</span>
+        <span class="badge warn" data-i18n="badgeDraft">草稿・未驗證・未試煮</span>
       </div>
-      <h1>每日推介｜一週七日</h1>
-      <p>當晚餸可留部分作翌日返學便當；少辣、全熟；冷藏≤24h，翌日翻熱至熱透。</p>
+      <h1 data-i18n="weekPageTitle">每日推介（一週）</h1>
+      <p data-i18n="weekPageLead">對象：1 大人＋3 小朋友。當晚餸可留作翌日返學便當。少辣 · 全熟 · 保冷 · 唔放生魚入便當。</p>
     </section>
     <div id="days" style="display:grid;gap:16px"></div>
   </main>
   <div id="site-footer"></div>
+  <script src="js/i18n.js"></script>
   <script src="js/app.js"></script>
   <script src="js/layout.js"></script>
   <script>
@@ -34,32 +34,38 @@
         RecipeApp.loadJSON("data/recipes.json"),
       ]);
       const byId = Object.fromEntries(data.recipes.map(r => [r.id, r]));
-      document.getElementById("days").innerHTML = week.days.map(d => {
-        const links = (d.recipe_ids || []).map(id => {
-          const r = byId[id];
-          return r
-            ? `<a class="tag" style="background:#fff;border:1px solid var(--line)" href="recipe.html?id=${encodeURIComponent(id)}">${RecipeApp.escapeHtml(r.name_zh)}</a>`
-            : "";
-        }).join(" ");
-        const ings = (d.ingredients_summary || []).map(i =>
-          `<li class="ing-item" style="grid-template-columns:1fr">
-            <div><div class="ing-name">${RecipeApp.escapeHtml(i.name)}</div>
-            <div class="ing-stores">${RecipeApp.renderStores(i.stores, i.costco_note)}</div></div>
-          </li>`
-        ).join("");
-        return `<article class="day-card" id="day-${d.day}">
-          <h3><span class="day-num">${d.day}</span>${RecipeApp.escapeHtml(d.weekday_zh)}</h3>
-          <div class="dinner">${RecipeApp.escapeHtml(d.dinner)}</div>
-          <p class="card-meta">⏱ ${RecipeApp.escapeHtml(d.time || "")}</p>
-          <p><strong>份量：</strong>${RecipeApp.escapeHtml(d.servings_note || "")}</p>
-          <div class="callout bento"><strong>便當分裝：</strong>${RecipeApp.escapeHtml(d.bento || "")}</div>
-          <p style="margin:10px 0 6px"><strong>相關菜譜：</strong></p>
-          <div class="card-tags">${links}</div>
-          <p style="margin:14px 0 6px"><strong>材料清單（NZ 超市）：</strong></p>
-          <ul class="ing-list">${ings}</ul>
-          <div class="callout safety"><strong>安全：</strong>${RecipeApp.escapeHtml(d.safety || "")}</div>
-        </article>`;
-      }).join("");
+      function paint() {
+        document.getElementById("days").innerHTML = week.days.map(d => {
+          const links = (d.recipe_ids || []).map(id => {
+            const r = byId[id];
+            return r
+              ? `<a class="tag" style="background:#fff;border:1px solid var(--line)" href="recipe.html?id=${encodeURIComponent(id)}">${RecipeApp.escapeHtml(RecipeApp.recipeName(r))}</a>`
+              : "";
+          }).join(" ");
+          const ings = (d.ingredients_summary || []).map(i =>
+            `<li class="ing-item">
+              <div class="ing-icon"><img src="assets/icons/ingredient.svg" alt="" width="32" height="32"></div>
+              <div><div class="ing-name">${RecipeApp.escapeHtml(i.name)}</div>
+              <div class="ing-stores">${RecipeApp.renderStores(i.stores, i.costco_note)}</div></div>
+            </li>`
+          ).join("");
+          const wd = RecipeApp.isZh() ? d.weekday_zh : (d.weekday_en || d.weekday_zh);
+          const dinner = RecipeApp.isZh() ? d.dinner : (d.dinner_en || d.dinner);
+          return `<article class="day-card" id="day-${d.day}">
+            <h3><span class="day-num">${d.day}</span>${RecipeApp.escapeHtml(wd)}</h3>
+            <div class="dinner">${RecipeApp.escapeHtml(dinner)}</div>
+            <p class="card-meta">⏱ ${RecipeApp.escapeHtml(d.time || "")}</p>
+            <p>${RecipeApp.escapeHtml(d.servings_note || "")}</p>
+            <div class="callout bento"><strong>${RecipeApp.escapeHtml(RecipeApp.t("bento"))}</strong>${RecipeApp.escapeHtml(d.bento || "")}</div>
+            <p style="margin:10px 0 6px">${links}</p>
+            <p style="margin:14px 0 6px"><strong>${RecipeApp.escapeHtml(RecipeApp.t("ingredients"))}</strong></p>
+            <ul class="ing-list">${ings}</ul>
+            <div class="callout safety"><strong>${RecipeApp.escapeHtml(RecipeApp.t("safety"))}</strong>${RecipeApp.escapeHtml(d.safety || "")}</div>
+          </article>`;
+        }).join("");
+      }
+      paint();
+      RecipeApp.onLangChange = paint;
     })().catch(e => { document.getElementById("days").textContent = e.message; });
   </script>
 </body>
